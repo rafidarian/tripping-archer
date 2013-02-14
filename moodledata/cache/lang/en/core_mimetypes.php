@@ -1,0 +1,15 @@
+<?php $this->cache['en']['core_mimetypes'] = array (
+  'application/msword' => 'Word document',
+  'application/pdf' => 'PDF document',
+  'application/vnd.ms-excel' => 'Excel spreadsheet',
+  'application/vnd.ms-powerpoint' => 'Powerpoint presentation',
+  'application/zip' => 'zip archive',
+  'audio/mp3' => 'MP3 audio file',
+  'audio/wav' => 'sound file',
+  'document/unknown' => 'file',
+  'image/bmp' => 'uncompressed BMP image',
+  'image/gif' => 'GIF image',
+  'image/jpeg' => 'JPEG image',
+  'text/plain' => 'text file',
+  'text/rtf' => 'RTF document',
+);
