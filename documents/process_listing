@@ -1,0 +1,81 @@
+F S UID        PID  PPID  C PRI  NI ADDR SZ WCHAN  STIME TTY          TIME CMD
+4 S root         1     0  0  80   0 -   649 poll_s 23:06 ?        00:00:01 /sbin/init
+1 S root         2     0  0  80   0 -     0 kthrea 23:06 ?        00:00:00 [kthreadd]
+1 S root         3     2  0 -40   - -     0 migrat 23:06 ?        00:00:00 [migration/0]
+1 S root         4     2  0  80   0 -     0 ksofti 23:06 ?        00:00:00 [ksoftirqd/0]
+5 S root         5     2  0 -40   - -     0 watchd 23:06 ?        00:00:00 [watchdog/0]
+1 S root         6     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [events/0]
+1 S root         7     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [cpuset]
+1 S root         8     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [khelper]
+1 S root         9     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [netns]
+1 S root        10     2  0  80   0 -     0 async_ 23:06 ?        00:00:00 [async/mgr]
+1 S root        11     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [pm]
+1 S root        12     2  0  80   0 -     0 bdi_sy 23:06 ?        00:00:00 [sync_supers]
+1 S root        13     2  0  80   0 -     0 bdi_fo 23:06 ?        00:00:00 [bdi-default]
+1 S root        14     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [kintegrityd/0]
+1 S root        15     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [kblockd/0]
+1 S root        16     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [kacpid]
+1 S root        17     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [kacpi_notify]
+1 S root        18     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [kacpi_hotplug]
+1 S root        19     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [ata/0]
+1 S root        20     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [ata_aux]
+1 S root        21     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [ksuspend_usbd]
+1 S root        22     2  0  80   0 -     0 hub_th 23:06 ?        00:00:00 [khubd]
+5 S root        23     2  0  80   0 -     0 serio_ 23:06 ?        00:00:00 [kseriod]
+1 S root        24     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [kmmcd]
+1 S root        27     2  0  80   0 -     0 watchd 23:06 ?        00:00:00 [khungtaskd]
+1 S root        28     2  0  80   0 -     0 kswapd 23:06 ?        00:00:00 [kswapd0]
+1 S root        29     2  0  85   5 -     0 ksm_sc 23:06 ?        00:00:00 [ksmd]
+1 S root        30     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [aio/0]
+1 S root        31     2  0  80   0 -     0 ecrypt 23:06 ?        00:00:00 [ecryptfs-kthrea]
+1 S root        32     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [crypto/0]
+1 S root        35     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [pciehpd]
+1 S root        37     2  0  80   0 -     0 scsi_e 23:06 ?        00:00:00 [scsi_eh_0]
+1 S root        38     2  0  80   0 -     0 scsi_e 23:06 ?        00:00:00 [scsi_eh_1]
+1 S root        41     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [kstriped]
+1 S root        42     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [kmpathd/0]
+1 S root        43     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [kmpath_handlerd]
+1 S root        44     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [ksnapd]
+1 S root        45     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [kondemand/0]
+1 S root        46     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [kconservative/0]
+1 S root       180     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [mpt_poll_0]
+1 S root       227     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [mpt/0]
+1 S root       243     2  0  80   0 -     0 scsi_e 23:06 ?        00:00:00 [scsi_eh_2]
+1 S root       290     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [kdmflush]
+1 S root       294     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [kdmflush]
+1 S root       306     2  0  80   0 -     0 kjourn 23:06 ?        00:00:00 [jbd2/dm-0-8]
+1 S root       307     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [ext4-dio-unwrit]
+1 S root       348     1  0  80   0 -   567 poll_s 23:06 ?        00:00:00 upstart-udev-bridge --daemon
+5 S root       374     1  0  76  -4 -   610 poll_s 23:06 ?        00:00:00 udevd --daemon
+1 S root       538     2  0  80   0 -     0 worker 23:06 ?        00:00:00 [kpsmoused]
+5 S root       847     1  0  80   0 -  1375 poll_s 23:06 ?        00:00:00 /usr/sbin/sshd
+5 S syslog     848     1  0  80   0 -  8497 poll_s 23:06 ?        00:00:00 rsyslogd -c4
+1 S root       891     2  0  80   0 -     0 bdi_wr 23:06 ?        00:00:00 [flush-252:0]
+0 S root       893     1  0  80   0 -   437 n_tty_ 23:06 tty4     00:00:00 /sbin/getty -8 38400 tty4
+0 S root       897     1  0  80   0 -   437 n_tty_ 23:06 tty5     00:00:00 /sbin/getty -8 38400 tty5
+0 S root       901     1  0  80   0 -   437 n_tty_ 23:06 tty2     00:00:00 /sbin/getty -8 38400 tty2
+0 S root       902     1  0  80   0 -   437 n_tty_ 23:06 tty3     00:00:00 /sbin/getty -8 38400 tty3
+0 S root       905     1  0  80   0 -   437 n_tty_ 23:06 tty6     00:00:00 /sbin/getty -8 38400 tty6
+1 S root       907     1  0  80   0 -   435 poll_s 23:06 ?        00:00:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+1 S root       909     1  0  80   0 -   583 hrtime 23:06 ?        00:00:00 cron
+4 S mysql      923     1  0  80   0 - 39748 poll_s 23:06 ?        00:00:00 /usr/sbin/mysqld
+5 S root       929   374  0  78  -2 -   609 poll_s 23:06 ?        00:00:00 udevd --daemon
+5 S root       931   374  0  78  -2 -   609 poll_s 23:06 ?        00:00:00 udevd --daemon
+4 S root      1047     1  0  80   0 -  1442 ep_pol 23:06 ?        00:00:00 /usr/lib/postfix/master
+4 S postfix   1063  1047  0  80   0 -  1457 ep_pol 23:06 ?        00:00:00 qmgr -l -t fifo -u
+5 S ntp       1064     1  0  80   0 -  1091 poll_s 23:06 ?        00:00:00 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 103:106
+5 S 105       1094     1  0  80   0 -  1061 poll_s 23:06 ?        00:00:00 /usr/bin/shellinaboxd -q --background=/var/run/shellinaboxd.pid -c /var/lib/shellinabox -p 12320 -u shellinabox -g certssl --user-css White on Black:+/etc/shellinabox/options-enabled/00+White on Black.css,Black on White:-/etc/shellinabox/options-enabled/00_Black on White.css;Color Terminal:+/etc/shellinabox/options-enabled/01+Color Terminal.css,Monochrome:-/etc/shellinabox/options-enabled/01_Monochrome.css --no-beep
+5 S 105       1097  1094  0  80   0 -  1061 unix_s 23:06 ?        00:00:00 /usr/bin/shellinaboxd -q --background=/var/run/shellinaboxd.pid -c /var/lib/shellinabox -p 12320 -u shellinabox -g certssl --user-css White on Black:+/etc/shellinabox/options-enabled/00+White on Black.css,Black on White:-/etc/shellinabox/options-enabled/00_Black on White.css;Color Terminal:+/etc/shellinabox/options-enabled/01+Color Terminal.css,Monochrome:-/etc/shellinabox/options-enabled/01_Monochrome.css --no-beep
+1 S root      1113     1  0  80   0 - 18943 poll_s 23:06 ?        00:00:00 /usr/sbin/apache2 -k start
+5 S www-data  1127  1113  0  80   0 - 22726 semtim 23:06 ?        00:00:00 /usr/sbin/apache2 -k start
+5 S www-data  1128  1113  0  80   0 - 18977 semtim 23:06 ?        00:00:00 /usr/sbin/apache2 -k start
+5 S www-data  1129  1113  0  80   0 - 18977 ep_pol 23:06 ?        00:00:00 /usr/sbin/apache2 -k start
+5 S www-data  1130  1113  0  80   0 - 29166 semtim 23:06 ?        00:00:02 /usr/sbin/apache2 -k start
+5 S www-data  1131  1113  0  80   0 - 28062 semtim 23:06 ?        00:00:01 /usr/sbin/apache2 -k start
+1 S root      1190     1  0  80   0 -  3186 poll_s 23:06 ?        00:00:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+4 S postfix   1357  1047  0  80   0 -  1446 ep_pol 23:17 ?        00:00:00 pickup -l -t fifo -u -c
+4 S root      1418     1  0  80   0 -   669 wait   23:28 tty1     00:00:00 /bin/login --     
+4 S root      1431  1418  0  80   0 -  1103 wait   23:29 tty1     00:00:01 -bash
+5 S www-data  1635  1113  0  80   0 - 26307 semtim 23:30 ?        00:00:01 /usr/sbin/apache2 -k start
+5 S www-data  1636  1113  0  80   0 - 19611 semtim 23:30 ?        00:00:00 /usr/sbin/apache2 -k start
+4 R root      2128  1431  0  80   0 -   598 -      23:36 tty1     00:00:00 ps -elf

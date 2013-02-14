@@ -1,0 +1,36 @@
+#!/bin/sh
+#
+# ifup hook script for resolvconf
+#
+# Licensed under the GNU GPL.  See /usr/share/common-licenses/GPL.
+#
+# History
+# June 2003: Written by Thomas Hood <jdthood@yahoo.co.uk>
+#            with help from Chris Hanson
+
+[ -x /sbin/resolvconf ] || exit 0
+
+case "$ADDRFAM" in
+	inet|inet6) : ;;
+	*) exit 0 ;;
+esac
+
+R=""
+if [ "$IF_DNS_DOMAIN" ] ; then
+	R="${R}domain $IF_DNS_DOMAIN
+"
+fi
+if [ "$IF_DNS_SEARCH" ] ; then
+	R="${R}search $IF_DNS_SEARCH
+"
+fi
+if [ "$IF_DNS_SORTLIST" ] ; then
+	R="${R}sortlist $IF_DNS_SORTLIST
+"
+fi
+for NS in $IF_DNS_NAMESERVERS ; do
+	R="${R}nameserver $NS
+"
+done
+echo -n "$R" | /sbin/resolvconf -a "${IFACE}.${ADDRFAM}"
+

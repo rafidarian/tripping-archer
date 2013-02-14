@@ -1,0 +1,31 @@
+Jan 13 06:25:03 moodle postfix/pickup[9205]: BFD7143021: uid=0 from=<root>
+Jan 13 06:25:03 moodle postfix/cleanup[9986]: BFD7143021: message-id=<20130113062503.BFD7143021@localhost>
+Jan 13 06:25:03 moodle postfix/qmgr[924]: BFD7143021: from=<root@localhost>, size=717, nrcpt=1 (queue active)
+Jan 13 06:25:03 moodle postfix/local[9988]: BFD7143021: to=<root@localhost>, orig_to=<root>, relay=local, delay=0.52, delays=0.49/0.03/0/0.01, dsn=2.0.0, status=sent (delivered to mailbox)
+Jan 13 06:25:03 moodle postfix/qmgr[924]: BFD7143021: removed
+Jan 13 11:48:16 moodle postfix/master[963]: daemon started -- version 2.7.0, configuration /etc/postfix
+Jan 13 11:50:37 moodle postfix/postfix-script[874]: fatal: the Postfix mail system is not running
+Jan 13 11:50:37 moodle postfix/master[1059]: daemon started -- version 2.7.0, configuration /etc/postfix
+Jan 13 12:05:25 moodle postfix/master[1059]: reload -- version 2.7.0, configuration /etc/postfix
+Jan 13 12:05:26 moodle postfix/master[1059]: reload -- version 2.7.0, configuration /etc/postfix
+Jan 13 12:06:36 moodle postfix/postfix-script[792]: fatal: the Postfix mail system is not running
+Jan 13 12:06:36 moodle postfix/master[977]: daemon started -- version 2.7.0, configuration /etc/postfix
+Jan 13 13:19:51 moodle postfix/postfix-script[796]: fatal: the Postfix mail system is not running
+Jan 13 13:19:52 moodle postfix/master[997]: daemon started -- version 2.7.0, configuration /etc/postfix
+Jan 13 13:20:19 moodle postfix/master[997]: reload -- version 2.7.0, configuration /etc/postfix
+Jan 13 13:20:20 moodle postfix/master[997]: reload -- version 2.7.0, configuration /etc/postfix
+Jan 13 13:25:16 moodle postfix/postfix-script[728]: fatal: the Postfix mail system is not running
+Jan 13 13:25:17 moodle postfix/master[969]: daemon started -- version 2.7.0, configuration /etc/postfix
+Jan 13 13:55:18 moodle postfix/master[969]: reload -- version 2.7.0, configuration /etc/postfix
+Jan 13 13:55:19 moodle postfix/master[969]: reload -- version 2.7.0, configuration /etc/postfix
+Jan 13 13:56:57 moodle postfix/postfix-script[812]: fatal: the Postfix mail system is not running
+Jan 13 13:56:57 moodle postfix/master[980]: daemon started -- version 2.7.0, configuration /etc/postfix
+Jan 14 06:25:03 moodle postfix/pickup[14640]: B5BD4400B7: uid=0 from=<root>
+Jan 14 06:25:03 moodle postfix/cleanup[15588]: B5BD4400B7: message-id=<20130114062503.B5BD4400B7@localhost>
+Jan 14 06:25:03 moodle postfix/qmgr[987]: B5BD4400B7: from=<root@localhost>, size=717, nrcpt=1 (queue active)
+Jan 14 06:25:03 moodle postfix/local[15590]: B5BD4400B7: to=<root@localhost>, orig_to=<root>, relay=local, delay=0.41, delays=0.38/0.03/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Jan 14 06:25:03 moodle postfix/qmgr[987]: B5BD4400B7: removed
+Jan 16 00:35:07 moodle postfix/postfix-script[836]: fatal: the Postfix mail system is not running
+Jan 16 00:35:07 moodle postfix/master[1009]: daemon started -- version 2.7.0, configuration /etc/postfix
+Jan 16 01:34:01 moodle postfix/master[948]: daemon started -- version 2.7.0, configuration /etc/postfix
+Feb 13 23:05:44 moodle postfix/master[1047]: daemon started -- version 2.7.0, configuration /etc/postfix

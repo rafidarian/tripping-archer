@@ -1,0 +1,15 @@
+no_chkconfig=0
+init_base=/etc/
+init_dir=/etc/init.d
+inittab_id=id
+soft_links=1
+show_opts=0
+boot_levels=2 3 5
+shutdown_command=halt
+order_digits=2
+order=0
+desc=1
+expert=0
+sort_mode=0
+status_check=0
+reboot_command=reboot

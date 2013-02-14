@@ -1,0 +1,673 @@
+Jan 13 11:48:16 moodle acpid: starting up with proc fs
+Jan 13 11:48:16 moodle acpid: 1 rule loaded
+Jan 13 11:48:16 moodle acpid: waiting for events: event logging is off
+Jan 13 11:48:16 moodle ntpd[979]: ntpd 4.2.4p8@1.1612-o Fri Apr  9 00:28:40 UTC 2010 (1)
+Jan 13 11:48:16 moodle ntpd[980]: precision = 1.000 usec
+Jan 13 11:48:16 moodle ntpd[980]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Jan 13 11:48:16 moodle ntpd[980]: Listening on interface #0 wildcard, 0.0.0.0#123 Disabled
+Jan 13 11:48:16 moodle ntpd[980]: Listening on interface #1 wildcard, ::#123 Disabled
+Jan 13 11:48:16 moodle ntpd[980]: Listening on interface #2 lo, ::1#123 Enabled
+Jan 13 11:48:16 moodle ntpd[980]: Listening on interface #3 lo, 127.0.0.1#123 Enabled
+Jan 13 11:48:16 moodle ntpd[980]: kernel time sync status 2040
+Jan 13 11:48:16 moodle ntpd[980]: frequency initialized 0.000 PPM from /var/lib/ntp/ntp.drift
+Jan 13 11:48:17 moodle /etc/mysql/debian-start[1050]: Upgrading MySQL tables if necessary.
+Jan 13 11:48:17 moodle /etc/mysql/debian-start[1053]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Jan 13 11:48:17 moodle /etc/mysql/debian-start[1053]: Looking for 'mysql' as: /usr/bin/mysql
+Jan 13 11:48:17 moodle /etc/mysql/debian-start[1053]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Jan 13 11:48:17 moodle /etc/mysql/debian-start[1053]: This installation of MySQL is already upgraded to 5.1.63, use --force if you still need to run mysql_upgrade
+Jan 13 11:48:17 moodle /etc/mysql/debian-start[1060]: Checking for insecure root accounts.
+Jan 13 11:48:17 moodle /etc/mysql/debian-start[1064]: Triggering myisam-recover for all MyISAM tables
+Jan 13 11:50:36 moodle acpid: starting up with proc fs
+Jan 13 11:50:36 moodle acpid: 1 rule loaded
+Jan 13 11:50:36 moodle acpid: waiting for events: event logging is off
+Jan 13 11:50:37 moodle init: ssh main process (417) terminated with status 255
+Jan 13 11:50:37 moodle ntpd[1075]: ntpd 4.2.4p8@1.1612-o Fri Apr  9 00:28:40 UTC 2010 (1)
+Jan 13 11:50:37 moodle ntpd[1076]: precision = 1.000 usec
+Jan 13 11:50:37 moodle ntpd[1076]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Jan 13 11:50:37 moodle ntpd[1076]: Listening on interface #0 wildcard, 0.0.0.0#123 Disabled
+Jan 13 11:50:37 moodle ntpd[1076]: Listening on interface #1 wildcard, ::#123 Disabled
+Jan 13 11:50:37 moodle ntpd[1076]: Listening on interface #2 lo, ::1#123 Enabled
+Jan 13 11:50:37 moodle ntpd[1076]: bind() fd 19, family AF_INET6, port 123, scope 2, addr fe80::250:56ff:fe93:582d, mcast=0 flags=0x11 fails: Cannot assign requested address
+Jan 13 11:50:37 moodle ntpd[1076]: unable to create socket on eth1 (3) for fe80::250:56ff:fe93:582d#123
+Jan 13 11:50:37 moodle ntpd[1076]: failed to initialize interface for address fe80::250:56ff:fe93:582d
+Jan 13 11:50:37 moodle ntpd[1076]: Listening on interface #4 lo, 127.0.0.1#123 Enabled
+Jan 13 11:50:37 moodle ntpd[1076]: Listening on interface #5 eth1, 172.20.240.10#123 Enabled
+Jan 13 11:50:37 moodle ntpd[1076]: kernel time sync status 2040
+Jan 13 11:50:38 moodle /etc/mysql/debian-start[1164]: Upgrading MySQL tables if necessary.
+Jan 13 11:50:38 moodle /etc/mysql/debian-start[1167]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Jan 13 11:50:38 moodle /etc/mysql/debian-start[1167]: Looking for 'mysql' as: /usr/bin/mysql
+Jan 13 11:50:38 moodle /etc/mysql/debian-start[1167]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Jan 13 11:50:38 moodle /etc/mysql/debian-start[1167]: This installation of MySQL is already upgraded to 5.1.63, use --force if you still need to run mysql_upgrade
+Jan 13 11:50:38 moodle /etc/mysql/debian-start[1174]: Checking for insecure root accounts.
+Jan 13 11:50:38 moodle /etc/mysql/debian-start[1178]: Triggering myisam-recover for all MyISAM tables
+Jan 13 11:51:17 moodle ntpdate[1001]: name server cannot be used, reason: Temporary failure in name resolution
+Jan 13 11:53:17 moodle ntpd[1076]: frequency initialized 0.000 PPM from /var/lib/ntp/ntp.drift
+Jan 13 11:53:18 moodle ntpd[1076]: Listening on interface #6 eth1, fe80::250:56ff:fe93:582d#123 Enabled
+Jan 13 11:53:18 moodle ntpd[1076]: new interface(s) found: waking up resolver
+Jan 13 12:05:26 moodle init: ssh main process (926) terminated with status 255
+Jan 13 12:05:26 moodle ntpd[1076]: ntpd exiting on signal 15
+Jan 13 12:05:26 moodle ntpd_initres[1325]: parent died before we finished, exiting
+Jan 13 12:06:03 moodle ntpdate[1544]: name server cannot be used, reason: Temporary failure in name resolution
+Jan 13 12:06:03 moodle ntpd[1576]: ntpd 4.2.4p8@1.1612-o Fri Apr  9 00:28:40 UTC 2010 (1)
+Jan 13 12:06:03 moodle ntpd[1577]: precision = 1.000 usec
+Jan 13 12:06:03 moodle ntpd[1577]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Jan 13 12:06:03 moodle ntpd[1577]: Listening on interface #0 wildcard, 0.0.0.0#123 Disabled
+Jan 13 12:06:03 moodle ntpd[1577]: Listening on interface #1 wildcard, ::#123 Disabled
+Jan 13 12:06:03 moodle ntpd[1577]: Listening on interface #2 lo, ::1#123 Enabled
+Jan 13 12:06:03 moodle ntpd[1577]: Listening on interface #3 eth1, fe80::250:56ff:fe93:582d#123 Enabled
+Jan 13 12:06:03 moodle ntpd[1577]: Listening on interface #4 lo, 127.0.0.1#123 Enabled
+Jan 13 12:06:03 moodle ntpd[1577]: Listening on interface #5 eth1, 172.20.241.10#123 Enabled
+Jan 13 12:06:03 moodle ntpd[1577]: kernel time sync status 2040
+Jan 13 12:06:35 moodle acpid: starting up with proc fs
+Jan 13 12:06:35 moodle acpid: 1 rule loaded
+Jan 13 12:06:35 moodle acpid: waiting for events: event logging is off
+Jan 13 12:06:36 moodle init: ssh main process (643) terminated with status 255
+Jan 13 12:06:36 moodle ntpd[993]: ntpd 4.2.4p8@1.1612-o Fri Apr  9 00:28:40 UTC 2010 (1)
+Jan 13 12:06:36 moodle ntpd[994]: precision = 1.000 usec
+Jan 13 12:06:36 moodle ntpd[994]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Jan 13 12:06:36 moodle ntpd[994]: Listening on interface #0 wildcard, 0.0.0.0#123 Disabled
+Jan 13 12:06:36 moodle ntpd[994]: Listening on interface #1 wildcard, ::#123 Disabled
+Jan 13 12:06:36 moodle ntpd[994]: Listening on interface #2 lo, ::1#123 Enabled
+Jan 13 12:06:36 moodle ntpd[994]: bind() fd 19, family AF_INET6, port 123, scope 2, addr fe80::250:56ff:fe93:582d, mcast=0 flags=0x11 fails: Cannot assign requested address
+Jan 13 12:06:36 moodle ntpd[994]: unable to create socket on eth1 (3) for fe80::250:56ff:fe93:582d#123
+Jan 13 12:06:36 moodle ntpd[994]: failed to initialize interface for address fe80::250:56ff:fe93:582d
+Jan 13 12:06:36 moodle ntpd[994]: Listening on interface #4 lo, 127.0.0.1#123 Enabled
+Jan 13 12:06:36 moodle ntpd[994]: Listening on interface #5 eth1, 172.20.241.10#123 Enabled
+Jan 13 12:06:36 moodle ntpd[994]: kernel time sync status 2040
+Jan 13 12:06:37 moodle /etc/mysql/debian-start[1082]: Upgrading MySQL tables if necessary.
+Jan 13 12:06:37 moodle /etc/mysql/debian-start[1085]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Jan 13 12:06:37 moodle /etc/mysql/debian-start[1085]: Looking for 'mysql' as: /usr/bin/mysql
+Jan 13 12:06:37 moodle /etc/mysql/debian-start[1085]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Jan 13 12:06:37 moodle /etc/mysql/debian-start[1085]: This installation of MySQL is already upgraded to 5.1.63, use --force if you still need to run mysql_upgrade
+Jan 13 12:06:37 moodle /etc/mysql/debian-start[1092]: Checking for insecure root accounts.
+Jan 13 12:06:37 moodle /etc/mysql/debian-start[1096]: Triggering myisam-recover for all MyISAM tables
+Jan 13 12:07:20 moodle ntpdate[913]: the NTP socket is in use, exiting
+Jan 13 12:07:20 moodle ntpd[994]: frequency initialized 0.000 PPM from /var/lib/ntp/ntp.drift
+Jan 13 12:07:21 moodle ntpd[994]: Listening on interface #6 eth1, fe80::250:56ff:fe93:582d#123 Enabled
+Jan 13 12:07:21 moodle ntpd[994]: new interface(s) found: waking up resolver
+Jan 13 12:10:33 moodle ntpd[994]: synchronized to 173.244.211.10, stratum 2
+Jan 13 12:14:00 moodle ntpd[994]: time reset +206.782553 s
+Jan 13 12:14:00 moodle ntpd[994]: kernel time sync status change 2001
+Jan 13 12:17:49 moodle init: tty1 main process ended, respawning
+Jan 13 12:19:03 moodle init: tty1 main process ended, respawning
+Jan 13 12:20:06 moodle ntpd[994]: synchronized to 149.20.68.17, stratum 2
+Jan 13 12:29:38 moodle ntpd[994]: synchronized to 173.244.211.10, stratum 2
+Jan 13 12:58:05 moodle init: tty1 main process ended, respawning
+Jan 13 13:00:52 moodle init: tty1 main process ended, respawning
+Jan 13 13:02:55 moodle ntpd[994]: synchronized to 149.20.68.17, stratum 2
+Jan 13 13:19:51 moodle acpid: starting up with proc fs
+Jan 13 13:19:51 moodle acpid: 1 rule loaded
+Jan 13 13:19:51 moodle acpid: waiting for events: event logging is off
+Jan 13 13:19:51 moodle init: ssh main process (412) terminated with status 255
+Jan 13 13:19:52 moodle ntpd[1013]: ntpd 4.2.4p8@1.1612-o Fri Apr  9 00:28:40 UTC 2010 (1)
+Jan 13 13:19:52 moodle ntpd[1014]: precision = 1.000 usec
+Jan 13 13:19:52 moodle ntpd[1014]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Jan 13 13:19:52 moodle ntpd[1014]: Listening on interface #0 wildcard, 0.0.0.0#123 Disabled
+Jan 13 13:19:52 moodle ntpd[1014]: Listening on interface #1 wildcard, ::#123 Disabled
+Jan 13 13:19:52 moodle ntpd[1014]: Listening on interface #2 lo, ::1#123 Enabled
+Jan 13 13:19:52 moodle ntpd[1014]: bind() fd 19, family AF_INET6, port 123, scope 2, addr fe80::250:56ff:fe93:582d, mcast=0 flags=0x11 fails: Cannot assign requested address
+Jan 13 13:19:52 moodle ntpd[1014]: unable to create socket on eth1 (3) for fe80::250:56ff:fe93:582d#123
+Jan 13 13:19:52 moodle ntpd[1014]: failed to initialize interface for address fe80::250:56ff:fe93:582d
+Jan 13 13:19:52 moodle ntpd[1014]: Listening on interface #4 lo, 127.0.0.1#123 Enabled
+Jan 13 13:19:52 moodle ntpd[1014]: Listening on interface #5 eth1, 172.20.241.10#123 Enabled
+Jan 13 13:19:52 moodle ntpd[1014]: kernel time sync status 2040
+Jan 13 13:19:53 moodle /etc/mysql/debian-start[1102]: Upgrading MySQL tables if necessary.
+Jan 13 13:19:53 moodle /etc/mysql/debian-start[1105]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Jan 13 13:19:53 moodle /etc/mysql/debian-start[1105]: Looking for 'mysql' as: /usr/bin/mysql
+Jan 13 13:19:53 moodle /etc/mysql/debian-start[1105]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Jan 13 13:19:53 moodle /etc/mysql/debian-start[1105]: This installation of MySQL is already upgraded to 5.1.63, use --force if you still need to run mysql_upgrade
+Jan 13 13:19:53 moodle /etc/mysql/debian-start[1112]: Checking for insecure root accounts.
+Jan 13 13:19:53 moodle /etc/mysql/debian-start[1116]: Triggering myisam-recover for all MyISAM tables
+Jan 13 13:20:20 moodle init: ssh main process (880) terminated with status 255
+Jan 13 13:20:20 moodle ntpd[1014]: ntpd exiting on signal 15
+Jan 13 13:20:32 moodle ntpdate[961]: name server cannot be used, reason: Temporary failure in name resolution
+Jan 13 13:20:32 moodle ntpd[1421]: ntpd 4.2.4p8@1.1612-o Fri Apr  9 00:28:40 UTC 2010 (1)
+Jan 13 13:20:32 moodle ntpd[1422]: precision = 1.000 usec
+Jan 13 13:20:32 moodle ntpd[1422]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Jan 13 13:20:32 moodle ntpd[1422]: Listening on interface #0 wildcard, 0.0.0.0#123 Disabled
+Jan 13 13:20:32 moodle ntpd[1422]: Listening on interface #1 wildcard, ::#123 Disabled
+Jan 13 13:20:32 moodle ntpd[1422]: Listening on interface #2 lo, ::1#123 Enabled
+Jan 13 13:20:32 moodle ntpd[1422]: Listening on interface #3 eth1, fe80::250:56ff:fe93:582d#123 Enabled
+Jan 13 13:20:32 moodle ntpd[1422]: Listening on interface #4 lo, 127.0.0.1#123 Enabled
+Jan 13 13:20:32 moodle ntpd[1422]: Listening on interface #5 eth1, 172.20.241.10#123 Enabled
+Jan 13 13:20:32 moodle ntpd[1422]: kernel time sync status 2040
+Jan 13 13:21:46 moodle ntpdate[1390]: the NTP socket is in use, exiting
+Jan 13 13:21:46 moodle ntpd[1422]: frequency initialized 6.221 PPM from /var/lib/ntp/ntp.drift
+Jan 13 13:25:16 moodle acpid: starting up with proc fs
+Jan 13 13:25:16 moodle acpid: 1 rule loaded
+Jan 13 13:25:16 moodle acpid: waiting for events: event logging is off
+Jan 13 13:25:16 moodle init: ssh main process (546) terminated with status 255
+Jan 13 13:25:17 moodle ntpd[985]: ntpd 4.2.4p8@1.1612-o Fri Apr  9 00:28:40 UTC 2010 (1)
+Jan 13 13:25:17 moodle ntpd[986]: precision = 1.000 usec
+Jan 13 13:25:17 moodle ntpd[986]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Jan 13 13:25:17 moodle ntpd[986]: Listening on interface #0 wildcard, 0.0.0.0#123 Disabled
+Jan 13 13:25:17 moodle ntpd[986]: Listening on interface #1 wildcard, ::#123 Disabled
+Jan 13 13:25:17 moodle ntpd[986]: Listening on interface #2 lo, ::1#123 Enabled
+Jan 13 13:25:17 moodle ntpd[986]: bind() fd 19, family AF_INET6, port 123, scope 2, addr fe80::250:56ff:fe93:582d, mcast=0 flags=0x11 fails: Cannot assign requested address
+Jan 13 13:25:17 moodle ntpd[986]: unable to create socket on eth1 (3) for fe80::250:56ff:fe93:582d#123
+Jan 13 13:25:17 moodle ntpd[986]: failed to initialize interface for address fe80::250:56ff:fe93:582d
+Jan 13 13:25:17 moodle ntpd[986]: Listening on interface #4 lo, 127.0.0.1#123 Enabled
+Jan 13 13:25:17 moodle ntpd[986]: Listening on interface #5 eth1, 172.20.241.10#123 Enabled
+Jan 13 13:25:17 moodle ntpd[986]: kernel time sync status 2040
+Jan 13 13:25:18 moodle /etc/mysql/debian-start[1074]: Upgrading MySQL tables if necessary.
+Jan 13 13:25:18 moodle /etc/mysql/debian-start[1077]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Jan 13 13:25:18 moodle /etc/mysql/debian-start[1077]: Looking for 'mysql' as: /usr/bin/mysql
+Jan 13 13:25:18 moodle /etc/mysql/debian-start[1077]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Jan 13 13:25:18 moodle /etc/mysql/debian-start[1077]: This installation of MySQL is already upgraded to 5.1.63, use --force if you still need to run mysql_upgrade
+Jan 13 13:25:18 moodle /etc/mysql/debian-start[1084]: Checking for insecure root accounts.
+Jan 13 13:25:18 moodle /etc/mysql/debian-start[1088]: Triggering myisam-recover for all MyISAM tables
+Jan 13 13:26:21 moodle ntpdate[899]: the NTP socket is in use, exiting
+Jan 13 13:26:21 moodle ntpd[986]: frequency initialized 6.221 PPM from /var/lib/ntp/ntp.drift
+Jan 13 13:26:22 moodle ntpd[986]: Listening on interface #6 eth1, fe80::250:56ff:fe93:582d#123 Enabled
+Jan 13 13:26:22 moodle ntpd[986]: new interface(s) found: waking up resolver
+Jan 13 13:55:19 moodle init: ssh main process (817) terminated with status 255
+Jan 13 13:55:19 moodle ntpd[986]: ntpd exiting on signal 15
+Jan 13 13:56:00 moodle ntpdate[1537]: name server cannot be used, reason: Temporary failure in name resolution
+Jan 13 13:56:00 moodle ntpd[1568]: ntpd 4.2.4p8@1.1612-o Fri Apr  9 00:28:40 UTC 2010 (1)
+Jan 13 13:56:00 moodle ntpd[1569]: precision = 1.000 usec
+Jan 13 13:56:00 moodle ntpd[1569]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Jan 13 13:56:00 moodle ntpd[1569]: Listening on interface #0 wildcard, 0.0.0.0#123 Disabled
+Jan 13 13:56:00 moodle ntpd[1569]: Listening on interface #1 wildcard, ::#123 Disabled
+Jan 13 13:56:00 moodle ntpd[1569]: Listening on interface #2 lo, ::1#123 Enabled
+Jan 13 13:56:00 moodle ntpd[1569]: Listening on interface #3 eth1, fe80::250:56ff:fe93:582d#123 Enabled
+Jan 13 13:56:00 moodle ntpd[1569]: Listening on interface #4 lo, 127.0.0.1#123 Enabled
+Jan 13 13:56:00 moodle ntpd[1569]: Listening on interface #5 eth1, 172.20.241.10#123 Enabled
+Jan 13 13:56:00 moodle ntpd[1569]: kernel time sync status 2040
+Jan 13 13:56:56 moodle acpid: starting up with proc fs
+Jan 13 13:56:56 moodle acpid: 1 rule loaded
+Jan 13 13:56:56 moodle acpid: waiting for events: event logging is off
+Jan 13 13:56:57 moodle init: ssh main process (587) terminated with status 255
+Jan 13 13:56:57 moodle ntpd[996]: ntpd 4.2.4p8@1.1612-o Fri Apr  9 00:28:40 UTC 2010 (1)
+Jan 13 13:56:57 moodle ntpd[997]: precision = 1.000 usec
+Jan 13 13:56:57 moodle ntpd[997]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Jan 13 13:56:57 moodle ntpd[997]: Listening on interface #0 wildcard, 0.0.0.0#123 Disabled
+Jan 13 13:56:57 moodle ntpd[997]: Listening on interface #1 wildcard, ::#123 Disabled
+Jan 13 13:56:57 moodle ntpd[997]: Listening on interface #2 lo, ::1#123 Enabled
+Jan 13 13:56:57 moodle ntpd[997]: bind() fd 19, family AF_INET6, port 123, scope 2, addr fe80::250:56ff:fe93:582d, mcast=0 flags=0x11 fails: Cannot assign requested address
+Jan 13 13:56:57 moodle ntpd[997]: unable to create socket on eth1 (3) for fe80::250:56ff:fe93:582d#123
+Jan 13 13:56:57 moodle ntpd[997]: failed to initialize interface for address fe80::250:56ff:fe93:582d
+Jan 13 13:56:57 moodle ntpd[997]: Listening on interface #4 lo, 127.0.0.1#123 Enabled
+Jan 13 13:56:57 moodle ntpd[997]: Listening on interface #5 eth1, 172.20.241.10#123 Enabled
+Jan 13 13:56:57 moodle ntpd[997]: kernel time sync status 2040
+Jan 13 13:56:58 moodle /etc/mysql/debian-start[1085]: Upgrading MySQL tables if necessary.
+Jan 13 13:56:58 moodle /etc/mysql/debian-start[1088]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Jan 13 13:56:58 moodle /etc/mysql/debian-start[1088]: Looking for 'mysql' as: /usr/bin/mysql
+Jan 13 13:56:58 moodle /etc/mysql/debian-start[1088]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Jan 13 13:56:58 moodle /etc/mysql/debian-start[1088]: This installation of MySQL is already upgraded to 5.1.63, use --force if you still need to run mysql_upgrade
+Jan 13 13:56:58 moodle /etc/mysql/debian-start[1095]: Checking for insecure root accounts.
+Jan 13 13:56:58 moodle /etc/mysql/debian-start[1099]: Triggering myisam-recover for all MyISAM tables
+Jan 13 13:57:42 moodle ntpdate[944]: the NTP socket is in use, exiting
+Jan 13 13:57:42 moodle ntpd[997]: frequency initialized 6.221 PPM from /var/lib/ntp/ntp.drift
+Jan 13 13:57:42 moodle ntpd[997]: Listening on interface #6 eth1, fe80::250:56ff:fe93:582d#123 Enabled
+Jan 13 13:57:42 moodle ntpd[997]: new interface(s) found: waking up resolver
+Jan 13 14:00:59 moodle ntpd[997]: synchronized to 108.59.14.130, stratum 2
+Jan 13 14:00:57 moodle ntpd[997]: time reset -1.322414 s
+Jan 13 14:00:57 moodle ntpd[997]: kernel time sync status change 2001
+Jan 13 14:04:56 moodle ntpd[997]: synchronized to 108.59.14.130, stratum 2
+Jan 13 14:09:42 moodle ntpd[997]: synchronized to 216.66.0.142, stratum 2
+Jan 13 14:24:22 moodle ntpd[997]: synchronized to 108.59.14.130, stratum 2
+Jan 13 14:32:14 moodle ntpd[997]: synchronized to 216.66.0.142, stratum 2
+Jan 13 15:02:09 moodle ntpd[997]: synchronized to 108.59.14.130, stratum 2
+Jan 13 15:12:49 moodle ntpd[997]: synchronized to 216.66.0.142, stratum 2
+Jan 13 17:29:41 moodle ntpd[997]: synchronized to 108.59.14.130, stratum 2
+Jan 13 17:42:28 moodle ntpd[997]: synchronized to 216.66.0.142, stratum 2
+Jan 13 19:07:57 moodle ntpd[997]: kernel time sync status change 6001
+Jan 13 20:33:23 moodle ntpd[997]: kernel time sync status change 2001
+Jan 13 20:57:57 moodle mysqld[11229]: 130113 20:57:57 [Warning] '--default-character-set' is deprecated and will be removed in a future release. Please use '--character-set-server' instead.
+Jan 13 20:57:57 moodle mysqld[11229]: 130113 20:57:57 [Warning] '--default-character-set' is deprecated and will be removed in a future release. Please use '--character-set-server' instead.
+Jan 13 20:57:57 moodle mysqld[11229]: 
+Jan 13 20:57:57 moodle mysqld[11229]: PLEASE REMEMBER TO SET A PASSWORD FOR THE MySQL root USER !
+Jan 13 20:57:57 moodle mysqld[11229]: To do so, start the server, then issue the following commands:
+Jan 13 20:57:57 moodle mysqld[11229]: 
+Jan 13 20:57:57 moodle mysqld[11229]: /usr/bin/mysqladmin -u root password 'new-password'
+Jan 13 20:57:57 moodle mysqld[11229]: /usr/bin/mysqladmin -u root -h moodle password 'new-password'
+Jan 13 20:57:57 moodle mysqld[11229]: 
+Jan 13 20:57:57 moodle mysqld[11229]: Alternatively you can run:
+Jan 13 20:57:57 moodle mysqld[11229]: /usr/bin/mysql_secure_installation
+Jan 13 20:57:57 moodle mysqld[11229]: 
+Jan 13 20:57:57 moodle mysqld[11229]: which will also give you the option of removing the test
+Jan 13 20:57:57 moodle mysqld[11229]: databases and anonymous user created by default.  This is
+Jan 13 20:57:57 moodle mysqld[11229]: strongly recommended for production servers.
+Jan 13 20:57:57 moodle mysqld[11229]: 
+Jan 13 20:57:57 moodle mysqld[11229]: See the manual for more instructions.
+Jan 13 20:57:57 moodle mysqld[11229]: 
+Jan 13 20:57:57 moodle mysqld[11229]: Please report any problems with the /usr/scripts/mysqlbug script!
+Jan 13 20:57:57 moodle mysqld[11229]: 
+Jan 13 20:57:57 moodle mysqld[11274]: 130113 20:57:57 [Warning] '--default-character-set' is deprecated and will be removed in a future release. Please use '--character-set-server' instead.
+Jan 13 20:58:03 moodle mysqld[11293]: 130113 20:58:03 [Warning] '--default-character-set' is deprecated and will be removed in a future release. Please use '--character-set-server' instead.
+Jan 13 20:58:08 moodle mysqld[11308]: 130113 20:58:08 [Warning] '--default-character-set' is deprecated and will be removed in a future release. Please use '--character-set-server' instead.
+Jan 13 20:58:13 moodle mysqld[11323]: 130113 20:58:13 [Warning] '--default-character-set' is deprecated and will be removed in a future release. Please use '--character-set-server' instead.
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11363]: Upgrading MySQL tables if necessary.
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: Looking for 'mysql' as: /usr/bin/mysql
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: Running 'mysqlcheck' with connection arguments: '--port=3306' '--socket=/var/run/mysqld/mysqld.sock' '--host=localhost' '--socket=/var/run/mysqld/mysqld.sock' '--host=localhost' '--socket=/var/run/mysqld/mysqld.sock' 
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: Running 'mysqlcheck' with connection arguments: '--port=3306' '--socket=/var/run/mysqld/mysqld.sock' '--host=localhost' '--socket=/var/run/mysqld/mysqld.sock' '--host=localhost' '--socket=/var/run/mysqld/mysqld.sock' 
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.assignment                                  OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.assignment_submissions                      OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.backup_controllers                          OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.backup_courses                              OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.backup_files                                OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.backup_files_template                       OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.backup_ids                                  OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.backup_ids_template                         OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.backup_log                                  OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.backup_logs                                 OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.block                                       OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.block_community                             OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.block_instance_old                          OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.block_instances                             OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.block_pinned_old                            OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.block_positions                             OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.block_rss_client                            OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.block_search_documents                      OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.blog_association                            OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.blog_external                               OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.cache_filters                               OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.cache_flags                                 OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.cache_text                                  OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.capabilities                                OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.chat                                        OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.chat_messages                               OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.chat_messages_current                       OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.chat_users                                  OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.choice                                      OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.choice_answers                              OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.choice_options                              OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.cohort                                      OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.cohort_members                              OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.comments                                    OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.config                                      OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.config_log                                  OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.config_plugins                              OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.context                                     OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.context_temp                                OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.course                                      OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.course_allowed_modules                      OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.course_categories                           OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.course_completion_aggr_methd                OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.course_completion_crit_compl                OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.course_completion_criteria                  OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.course_completion_notify                    OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.course_completions                          OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.course_display                              OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.course_modules                              OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.course_modules_availability                 OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.course_modules_completion                   OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.course_published                            OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.course_request                              OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.course_sections                             OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.data                                        OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.data_content                                OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.data_fields                                 OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.data_records                                OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.enrol                                       OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.enrol_authorize                             OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.enrol_authorize_refunds                     OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.enrol_flatfile                              OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.enrol_paypal                                OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.event                                       OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.events_handlers                             OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.events_queue                                OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.events_queue_handlers                       OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.external_functions                          OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.external_services                           OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.external_services_functions                 OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.external_services_users                     OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.external_tokens                             OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.feedback                                    OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.feedback_completed                          OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.feedback_completedtmp                       OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.feedback_item                               OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.feedback_sitecourse_map                     OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.feedback_template                           OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.feedback_tracking                           OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.feedback_value                              OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.feedback_valuetmp                           OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.files                                       OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.filter_active                               OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.filter_config                               OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.folder                                      OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.forum                                       OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.forum_discussions                           OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.forum_posts                                 OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.forum_queue                                 OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.forum_read                                  OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.forum_subscriptions                         OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.forum_track_prefs                           OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.glossary                                    OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.glossary_alias                              OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.glossary_categories                         OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.glossary_entries                            OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.glossary_entries_categories                 OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.glossary_formats                            OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.grade_categories                            OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.grade_categories_history                    OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.grade_grades                                OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.grade_grades_history                        OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.grade_import_newitem                        OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.grade_import_values                         OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.grade_items                                 OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.grade_items_history                         OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.grade_letters                               OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.grade_outcomes                              OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.grade_outcomes_courses                      OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.grade_outcomes_history                      OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.grade_settings                              OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.groupings                                   OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.groupings_groups                            OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.groups                                      OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.groups_members                              OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.imscp                                       OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.label                                       OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.lesson                                      OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.lesson_answers                              OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.lesson_attempts                             OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.lesson_branch                               OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.lesson_grades                               OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.lesson_high_scores                          OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.lesson_pages                                OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.lesson_timer                                OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.license                                     OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.log                                         OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.log_display                                 OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.log_queries                                 OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.message                                     OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.message_contacts                            OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.message_processors                          OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.message_providers                           OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.message_read                                OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.message_working                             OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.mnet_application                            OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.mnet_host                                   OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.mnet_host2service                           OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.mnet_log                                    OK
+Jan 13 20:58:20 moodle /etc/mysql/debian-start[11366]: moodle.mnet_remote_rpc                             OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.mnet_remote_service2rpc                     OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.mnet_rpc                                    OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.mnet_service                                OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.mnet_service2rpc                            OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.mnet_session                                OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.mnet_sso_access_control                     OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.mnetservice_enrol_courses                   OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.mnetservice_enrol_enrolments                OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.modules                                     OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.my_pages                                    OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.page                                        OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.portfolio_instance                          OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.portfolio_instance_config                   OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.portfolio_instance_user                     OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.portfolio_log                               OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.portfolio_mahara_queue                      OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.portfolio_tempdata                          OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.post                                        OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question                                    OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_answers                            OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_attempts                           OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_calculated                         OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_calculated_options                 OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_categories                         OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_dataset_definitions                OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_dataset_items                      OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_datasets                           OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_match                              OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_match_sub                          OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_multianswer                        OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_multichoice                        OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_numerical                          OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_numerical_options                  OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_numerical_units                    OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_randomsamatch                      OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_sessions                           OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_shortanswer                        OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_states                             OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.question_truefalse                          OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.quiz                                        OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.quiz_attempts                               OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.quiz_feedback                               OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.quiz_grades                                 OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.quiz_overrides                              OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.quiz_question_instances                     OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.quiz_question_regrade                       OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.quiz_question_response_stats                OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.quiz_question_statistics                    OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.quiz_report                                 OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.quiz_statistics                             OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.rating                                      OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.registration_hubs                           OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.report_customlang                           OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.report_customlang_components                OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.repository                                  OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.repository_instance_config                  OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.repository_instances                        OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.resource                                    OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.resource_old                                OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.role                                        OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.role_allow_assign                           OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.role_allow_override                         OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.role_allow_switch                           OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.role_assignments                            OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.role_capabilities                           OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.role_context_levels                         OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.role_names                                  OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.role_sortorder                              OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.scale                                       OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.scale_history                               OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.scorm                                       OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.scorm_scoes                                 OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.scorm_scoes_data                            OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.scorm_scoes_track                           OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.scorm_seq_mapinfo                           OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.scorm_seq_objective                         OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.scorm_seq_rolluprule                        OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.scorm_seq_rolluprulecond                    OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.scorm_seq_rulecond                          OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.scorm_seq_ruleconds                         OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.sessions                                    OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.stats_daily                                 OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.stats_monthly                               OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.stats_user_daily                            OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.stats_user_monthly                          OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.stats_user_weekly                           OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.stats_weekly                                OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.survey                                      OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.survey_analysis                             OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.survey_answers                              OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.survey_questions                            OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.tag                                         OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.tag_correlation                             OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.tag_instance                                OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.timezone                                    OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.upgrade_log                                 OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.url                                         OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.user                                        OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.user_enrolments                             OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.user_info_category                          OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.user_info_data                              OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.user_info_field                             OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.user_lastaccess                             OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.user_preferences                            OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.user_private_key                            OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.webdav_locks                                OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.wiki                                        OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.wiki_links                                  OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.wiki_locks                                  OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.wiki_pages                                  OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.wiki_subwikis                               OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.wiki_synonyms                               OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.wiki_versions                               OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshop                                    OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshop_aggregations                       OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshop_assessments                        OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshop_assessments_old                    OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshop_comments_old                       OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshop_elements_old                       OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshop_grades                             OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshop_grades_old                         OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshop_old                                OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshop_rubrics_old                        OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshop_stockcomments_old                  OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshop_submissions                        OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshop_submissions_old                    OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshopeval_best_settings                  OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshopform_accumulative                   OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshopform_comments                       OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshopform_numerrors                      OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshopform_numerrors_map                  OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshopform_rubric                         OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshopform_rubric_config                  OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: moodle.workshopform_rubric_levels                  OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: mysql.columns_priv                                 OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: mysql.db                                           OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: mysql.event                                        OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: mysql.func                                         OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: mysql.general_log
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: Error    : You can't use locks with log tables.
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: status   : OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: mysql.help_category                                OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: mysql.help_keyword                                 OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: mysql.help_relation                                OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: mysql.help_topic                                   OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: mysql.host                                         OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: mysql.ndb_binlog_index                             OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: mysql.plugin                                       OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: mysql.proc                                         OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: mysql.procs_priv                                   OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: mysql.servers                                      OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: mysql.slow_log
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: Error    : You can't use locks with log tables.
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: status   : OK
+Jan 13 20:58:21 moodle /etc/mysql/debian-start[11366]: mysql.tables_priv                                  OK
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11366]: mysql.time_zone                                    OK
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11366]: mysql.time_zone_leap_second                        OK
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11366]: mysql.time_zone_name                               OK
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11366]: mysql.time_zone_transition                         OK
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11366]: mysql.time_zone_transition_type                    OK
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11366]: mysql.user                                         OK
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11366]: phpmyadmin.pma_bookmark                            OK
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11366]: phpmyadmin.pma_column_info                         OK
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11366]: phpmyadmin.pma_designer_coords                     OK
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11366]: phpmyadmin.pma_history                             OK
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11366]: phpmyadmin.pma_pdf_pages                           OK
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11366]: phpmyadmin.pma_relation                            OK
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11366]: phpmyadmin.pma_table_coords                        OK
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11366]: phpmyadmin.pma_table_info                          OK
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11366]: phpmyadmin.pma_tracking                            OK
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11366]: Running 'mysql_fix_privilege_tables'...
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11366]: OK
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11387]: Checking for insecure root accounts.
+Jan 13 20:58:22 moodle /etc/mysql/debian-start[11391]: Triggering myisam-recover for all MyISAM tables
+Jan 13 21:07:32 moodle ntpd[997]: kernel time sync status change 6001
+Jan 13 21:24:37 moodle ntpd[997]: kernel time sync status change 2001
+Jan 13 22:50:01 moodle ntpd[997]: kernel time sync status change 6001
+Jan 13 23:07:05 moodle ntpd[997]: kernel time sync status change 2001
+Jan 13 23:41:15 moodle ntpd[997]: kernel time sync status change 6001
+Jan 13 23:58:21 moodle ntpd[997]: kernel time sync status change 2001
+Jan 14 00:32:32 moodle ntpd[997]: kernel time sync status change 6001
+Jan 14 00:49:37 moodle ntpd[997]: kernel time sync status change 2001
+Jan 14 01:23:46 moodle ntpd[997]: kernel time sync status change 6001
+Jan 14 01:40:51 moodle ntpd[997]: kernel time sync status change 2001
+Jan 14 05:05:37 moodle ntpd[997]: kernel time sync status change 6001
+Jan 15 15:46:44 moodle ntpd[997]: no servers reachable
+Jan 15 16:40:00 moodle ntpd[997]: synchronized to 216.66.0.142, stratum 2
+Jan 15 16:55:01 moodle ntpd[997]: synchronized to 108.59.14.130, stratum 2
+Jan 15 16:55:01 moodle ntpd[997]: kernel time sync status change 2001
+Jan 15 17:40:43 moodle ntpd[997]: synchronized to 216.66.0.142, stratum 2
+Jan 15 17:40:43 moodle ntpd[997]: kernel time sync status change 6001
+Jan 15 18:05:22 moodle ntpd[997]: kernel time sync status change 2001
+Jan 15 18:56:34 moodle ntpd[997]: kernel time sync status change 6001
+Jan 15 19:13:39 moodle ntpd[997]: kernel time sync status change 2001
+Jan 15 20:22:01 moodle ntpd[997]: kernel time sync status change 6001
+Jan 15 21:13:18 moodle ntpd[997]: kernel time sync status change 2001
+Jan 15 21:47:27 moodle ntpd[997]: kernel time sync status change 6001
+Jan 15 22:04:30 moodle ntpd[997]: kernel time sync status change 2001
+Jan 15 23:29:55 moodle ntpd[997]: kernel time sync status change 6001
+Jan 16 00:04:03 moodle ntpd[997]: kernel time sync status change 2001
+Jan 16 00:35:06 moodle acpid: starting up with proc fs
+Jan 16 00:35:06 moodle acpid: 1 rule loaded
+Jan 16 00:35:06 moodle acpid: waiting for events: event logging is off
+Jan 16 00:35:07 moodle init: ssh main process (723) terminated with status 255
+Jan 16 00:35:07 moodle ntpd[1025]: ntpd 4.2.4p8@1.1612-o Fri Apr  9 00:28:40 UTC 2010 (1)
+Jan 16 00:35:07 moodle ntpd[1026]: precision = 1.000 usec
+Jan 16 00:35:07 moodle ntpd[1026]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Jan 16 00:35:07 moodle ntpd[1026]: Listening on interface #0 wildcard, 0.0.0.0#123 Disabled
+Jan 16 00:35:07 moodle ntpd[1026]: Listening on interface #1 wildcard, ::#123 Disabled
+Jan 16 00:35:07 moodle ntpd[1026]: Listening on interface #2 lo, ::1#123 Enabled
+Jan 16 00:35:07 moodle ntpd[1026]: bind() fd 19, family AF_INET6, port 123, scope 2, addr fe80::250:56ff:fe93:582d, mcast=0 flags=0x11 fails: Cannot assign requested address
+Jan 16 00:35:07 moodle ntpd[1026]: unable to create socket on eth1 (3) for fe80::250:56ff:fe93:582d#123
+Jan 16 00:35:07 moodle ntpd[1026]: failed to initialize interface for address fe80::250:56ff:fe93:582d
+Jan 16 00:35:07 moodle ntpd[1026]: Listening on interface #4 lo, 127.0.0.1#123 Enabled
+Jan 16 00:35:07 moodle ntpd[1026]: Listening on interface #5 eth1, 172.20.241.10#123 Enabled
+Jan 16 00:35:07 moodle ntpd[1026]: kernel time sync status 2040
+Jan 16 00:35:08 moodle /etc/mysql/debian-start[1113]: Upgrading MySQL tables if necessary.
+Jan 16 00:35:08 moodle /etc/mysql/debian-start[1116]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Jan 16 00:35:08 moodle /etc/mysql/debian-start[1116]: Looking for 'mysql' as: /usr/bin/mysql
+Jan 16 00:35:08 moodle /etc/mysql/debian-start[1116]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Jan 16 00:35:08 moodle /etc/mysql/debian-start[1116]: This installation of MySQL is already upgraded to 5.1.66, use --force if you still need to run mysql_upgrade
+Jan 16 00:35:08 moodle /etc/mysql/debian-start[1123]: Checking for insecure root accounts.
+Jan 16 00:35:08 moodle /etc/mysql/debian-start[1127]: Triggering myisam-recover for all MyISAM tables
+Jan 16 00:35:47 moodle ntpdate[969]: name server cannot be used, reason: Temporary failure in name resolution
+Jan 16 00:37:47 moodle ntpd[1026]: frequency initialized 18.794 PPM from /var/lib/ntp/ntp.drift
+Jan 16 00:37:48 moodle ntpd[1026]: Listening on interface #6 eth1, fe80::250:56ff:fe93:582d#123 Enabled
+Jan 16 00:37:48 moodle ntpd[1026]: new interface(s) found: waking up resolver
+Jan 16 00:45:03 moodle ntpd[1026]: synchronized to 204.235.61.9, stratum 2
+Jan 16 00:45:03 moodle ntpd[1026]: time reset +0.238182 s
+Jan 16 00:45:03 moodle ntpd[1026]: kernel time sync status change 2001
+Jan 16 00:50:00 moodle ntpd[1026]: synchronized to 204.235.61.9, stratum 2
+Jan 16 00:54:19 moodle ntpd[1026]: synchronized to 72.20.40.62, stratum 2
+Jan 16 01:16:20 moodle ntpd[1026]: synchronized to 204.235.61.9, stratum 2
+Jan 16 01:34:00 moodle acpid: starting up with proc fs
+Jan 16 01:34:00 moodle acpid: 1 rule loaded
+Jan 16 01:34:00 moodle acpid: waiting for events: event logging is off
+Jan 16 01:34:01 moodle ntpd[964]: ntpd 4.2.4p8@1.1612-o Fri Apr  9 00:28:40 UTC 2010 (1)
+Jan 16 01:34:01 moodle ntpd[965]: precision = 1.000 usec
+Jan 16 01:34:01 moodle ntpd[965]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Jan 16 01:34:01 moodle ntpd[965]: Listening on interface #0 wildcard, 0.0.0.0#123 Disabled
+Jan 16 01:34:01 moodle ntpd[965]: Listening on interface #1 wildcard, ::#123 Disabled
+Jan 16 01:34:01 moodle ntpd[965]: Listening on interface #2 lo, ::1#123 Enabled
+Jan 16 01:34:01 moodle ntpd[965]: Listening on interface #3 lo, 127.0.0.1#123 Enabled
+Jan 16 01:34:01 moodle ntpd[965]: kernel time sync status 2040
+Jan 16 01:34:01 moodle ntpd[965]: frequency initialized 18.794 PPM from /var/lib/ntp/ntp.drift
+Jan 16 01:34:02 moodle /etc/mysql/debian-start[1053]: Upgrading MySQL tables if necessary.
+Jan 16 01:34:02 moodle /etc/mysql/debian-start[1056]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Jan 16 01:34:02 moodle /etc/mysql/debian-start[1056]: Looking for 'mysql' as: /usr/bin/mysql
+Jan 16 01:34:02 moodle /etc/mysql/debian-start[1056]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Jan 16 01:34:02 moodle /etc/mysql/debian-start[1056]: This installation of MySQL is already upgraded to 5.1.66, use --force if you still need to run mysql_upgrade
+Jan 16 01:34:02 moodle /etc/mysql/debian-start[1063]: Checking for insecure root accounts.
+Jan 16 01:34:02 moodle /etc/mysql/debian-start[1067]: Triggering myisam-recover for all MyISAM tables
+Feb 13 23:05:43 moodle acpid: starting up with proc fs
+Feb 13 23:05:44 moodle acpid: 1 rule loaded
+Feb 13 23:05:44 moodle acpid: waiting for events: event logging is off
+Feb 13 23:05:44 moodle ntpd[1061]: ntpd 4.2.4p8@1.1612-o Fri Apr  9 00:28:40 UTC 2010 (1)
+Feb 13 23:05:44 moodle ntpd[1064]: precision = 1.000 usec
+Feb 13 23:05:44 moodle ntpd[1064]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Feb 13 23:05:44 moodle ntpd[1064]: Listening on interface #0 wildcard, 0.0.0.0#123 Disabled
+Feb 13 23:05:44 moodle ntpd[1064]: Listening on interface #1 wildcard, ::#123 Disabled
+Feb 13 23:05:44 moodle ntpd[1064]: Listening on interface #2 lo, ::1#123 Enabled
+Feb 13 23:05:44 moodle ntpd[1064]: Listening on interface #3 eth1, fe80::250:56ff:fe93:59aa#123 Enabled
+Feb 13 23:05:44 moodle ntpd[1064]: Listening on interface #4 lo, 127.0.0.1#123 Enabled
+Feb 13 23:05:44 moodle ntpd[1064]: Listening on interface #5 eth1, 172.20.241.10#123 Enabled
+Feb 13 23:05:44 moodle ntpd[1064]: kernel time sync status 2040
+Feb 13 23:05:45 moodle /etc/mysql/debian-start[1133]: Upgrading MySQL tables if necessary.
+Feb 13 23:05:45 moodle /etc/mysql/debian-start[1136]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Feb 13 23:05:45 moodle /etc/mysql/debian-start[1136]: Looking for 'mysql' as: /usr/bin/mysql
+Feb 13 23:05:45 moodle /etc/mysql/debian-start[1136]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Feb 13 23:05:45 moodle /etc/mysql/debian-start[1136]: This installation of MySQL is already upgraded to 5.1.66, use --force if you still need to run mysql_upgrade
+Feb 13 23:05:45 moodle /etc/mysql/debian-start[1143]: Checking for insecure root accounts.
+Feb 13 23:05:45 moodle /etc/mysql/debian-start[1147]: Triggering myisam-recover for all MyISAM tables
+Feb 13 23:06:14 moodle ntpdate[870]: name server cannot be used, reason: Temporary failure in name resolution
+Feb 13 23:06:14 moodle ntpd[1064]: frequency initialized 18.794 PPM from /var/lib/ntp/ntp.drift
+Feb 13 23:16:28 moodle ntpd[1064]: synchronized to 129.174.93.11, stratum 3
+Feb 13 23:16:28 moodle ntpd[1064]: time reset +44.128105 s
+Feb 13 23:16:28 moodle ntpd[1064]: kernel time sync status change 2001
+Feb 13 23:21:37 moodle ntpd[1064]: synchronized to 199.102.46.73, stratum 1
+Feb 13 23:28:56 moodle init: tty1 main process ended, respawning
+Feb 14 00:15:58 moodle dbus-daemon: Reloaded configuration
+Feb 14 00:16:32 moodle dbus-daemon: last message repeated 12 times
+Feb 14 00:16:32 moodle dbus-daemon: Reloaded configuration
+Feb 14 00:16:46 moodle upstart-udev-bridge[348]: Env must be KEY=VALUE pairs
+Feb 14 00:16:51 moodle upstart-udev-bridge[348]: last message repeated 4 times
+Feb 14 00:16:51 moodle dbus-daemon: Reloaded configuration
+Feb 14 00:17:04 moodle acpid: client connected from 16890[0:0]
+Feb 14 00:17:04 moodle acpid: 1 client rule loaded
+Feb 14 00:17:06 moodle polkitd[16951]: started daemon version 0.96 using authority implementation `local' version `0.96'

@@ -1,0 +1,67 @@
+[Sun Jan 13 06:25:03 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 06:25:03 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 06:25:03 2013] [notice] Apache/2.2.14 (Ubuntu) PHP/5.3.2-1ubuntu4.18 with Suhosin-Patch mod_ssl/2.2.14 OpenSSL/0.9.8k configured -- resuming normal operations
+[Sun Jan 13 11:48:04 2013] [notice] caught SIGTERM, shutting down
+[Sun Jan 13 11:48:16 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 11:48:16 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 11:48:16 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 11:48:16 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 11:48:16 2013] [notice] Apache/2.2.14 (Ubuntu) PHP/5.3.2-1ubuntu4.18 with Suhosin-Patch mod_ssl/2.2.14 OpenSSL/0.9.8k configured -- resuming normal operations
+[Sun Jan 13 11:50:24 2013] [notice] caught SIGTERM, shutting down
+[Sun Jan 13 11:50:37 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 11:50:37 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 11:50:37 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 11:50:37 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 11:50:37 2013] [notice] Apache/2.2.14 (Ubuntu) PHP/5.3.2-1ubuntu4.18 with Suhosin-Patch mod_ssl/2.2.14 OpenSSL/0.9.8k configured -- resuming normal operations
+[Sun Jan 13 12:06:22 2013] [notice] caught SIGTERM, shutting down
+[Sun Jan 13 12:06:36 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 12:06:36 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 12:06:36 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 12:06:36 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 12:06:36 2013] [notice] Apache/2.2.14 (Ubuntu) PHP/5.3.2-1ubuntu4.18 with Suhosin-Patch mod_ssl/2.2.14 OpenSSL/0.9.8k configured -- resuming normal operations
+[Sun Jan 13 13:19:38 2013] [notice] caught SIGTERM, shutting down
+[Sun Jan 13 13:19:52 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 13:19:52 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 13:19:52 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 13:19:52 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 13:19:52 2013] [notice] Apache/2.2.14 (Ubuntu) PHP/5.3.2-1ubuntu4.18 with Suhosin-Patch mod_ssl/2.2.14 OpenSSL/0.9.8k configured -- resuming normal operations
+[Sun Jan 13 13:24:11 2013] [notice] caught SIGTERM, shutting down
+[Sun Jan 13 13:25:17 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 13:25:17 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 13:25:17 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 13:25:17 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 13:25:17 2013] [notice] Apache/2.2.14 (Ubuntu) PHP/5.3.2-1ubuntu4.18 with Suhosin-Patch mod_ssl/2.2.14 OpenSSL/0.9.8k configured -- resuming normal operations
+[Sun Jan 13 13:56:17 2013] [notice] caught SIGTERM, shutting down
+[Sun Jan 13 13:56:57 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 13:56:57 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 13:56:57 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 13:56:57 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 13:56:57 2013] [notice] Apache/2.2.14 (Ubuntu) PHP/5.3.2-1ubuntu4.18 with Suhosin-Patch mod_ssl/2.2.14 OpenSSL/0.9.8k configured -- resuming normal operations
+[Sun Jan 13 20:57:27 2013] [notice] caught SIGTERM, shutting down
+[Sun Jan 13 20:58:23 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 20:58:23 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 20:58:23 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 20:58:23 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Jan 13 20:58:23 2013] [notice] Apache/2.2.14 (Ubuntu) PHP/5.3.2-1ubuntu4.18 with Suhosin-Patch mod_ssl/2.2.14 OpenSSL/0.9.8k configured -- resuming normal operations
+[Mon Jan 14 06:25:03 2013] [notice] Graceful restart requested, doing restart
+[Mon Jan 14 06:25:03 2013] [error] (9)Bad file descriptor: apr_socket_accept: (client socket)
+apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1 for ServerName
+[Mon Jan 14 06:25:03 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Jan 14 06:25:03 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Jan 14 06:25:03 2013] [notice] Apache/2.2.14 (Ubuntu) PHP/5.3.2-1ubuntu4.18 with Suhosin-Patch mod_ssl/2.2.14 OpenSSL/0.9.8k configured -- resuming normal operations
+[Wed Jan 16 00:34:12 2013] [notice] caught SIGTERM, shutting down
+[Wed Jan 16 00:35:07 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Jan 16 00:35:07 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Jan 16 00:35:07 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Jan 16 00:35:07 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Jan 16 00:35:07 2013] [notice] Apache/2.2.14 (Ubuntu) PHP/5.3.2-1ubuntu4.18 with Suhosin-Patch mod_ssl/2.2.14 OpenSSL/0.9.8k configured -- resuming normal operations
+[Wed Jan 16 01:34:01 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Jan 16 01:34:01 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Jan 16 01:34:02 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Jan 16 01:34:02 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Jan 16 01:34:02 2013] [notice] Apache/2.2.14 (Ubuntu) PHP/5.3.2-1ubuntu4.18 with Suhosin-Patch mod_ssl/2.2.14 OpenSSL/0.9.8k configured -- resuming normal operations
+[Wed Feb 13 23:05:45 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Feb 13 23:05:45 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Feb 13 23:05:45 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Feb 13 23:05:45 2013] [warn] RSA server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Feb 13 23:05:45 2013] [notice] Apache/2.2.14 (Ubuntu) PHP/5.3.2-1ubuntu4.18 with Suhosin-Patch mod_ssl/2.2.14 OpenSSL/0.9.8k configured -- resuming normal operations

@@ -1,0 +1,821 @@
+Jan 13 06:25:03 moodle CRON[9590]: pam_unix(cron:session): session closed for user root
+Jan 13 06:39:01 moodle CRON[10058]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 06:39:01 moodle CRON[10058]: pam_unix(cron:session): session closed for user root
+Jan 13 06:47:01 moodle CRON[10093]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 06:47:02 moodle CRON[10093]: pam_unix(cron:session): session closed for user root
+Jan 13 07:09:01 moodle CRON[10218]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 07:09:01 moodle CRON[10218]: pam_unix(cron:session): session closed for user root
+Jan 13 07:17:01 moodle CRON[10253]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 07:17:01 moodle su[10258]: Successful su for www-data by root
+Jan 13 07:17:01 moodle su[10258]: + ??? root:www-data
+Jan 13 07:17:01 moodle su[10258]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 13 07:17:01 moodle su[10258]: pam_unix(su:session): session closed for user www-data
+Jan 13 07:17:01 moodle CRON[10253]: pam_unix(cron:session): session closed for user root
+Jan 13 07:39:01 moodle CRON[10357]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 07:39:01 moodle CRON[10357]: pam_unix(cron:session): session closed for user root
+Jan 13 08:09:01 moodle CRON[10506]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 08:09:01 moodle CRON[10506]: pam_unix(cron:session): session closed for user root
+Jan 13 08:17:01 moodle CRON[10560]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 08:17:01 moodle su[10565]: Successful su for www-data by root
+Jan 13 08:17:01 moodle su[10565]: + ??? root:www-data
+Jan 13 08:17:01 moodle su[10565]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 13 08:17:02 moodle su[10565]: pam_unix(su:session): session closed for user www-data
+Jan 13 08:17:02 moodle CRON[10560]: pam_unix(cron:session): session closed for user root
+Jan 13 08:39:01 moodle CRON[10665]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 08:39:01 moodle CRON[10665]: pam_unix(cron:session): session closed for user root
+Jan 13 09:09:01 moodle CRON[10814]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 09:09:01 moodle CRON[10814]: pam_unix(cron:session): session closed for user root
+Jan 13 09:17:01 moodle CRON[10849]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 09:17:01 moodle su[10854]: Successful su for www-data by root
+Jan 13 09:17:01 moodle su[10854]: + ??? root:www-data
+Jan 13 09:17:01 moodle su[10854]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 13 09:17:01 moodle su[10854]: pam_unix(su:session): session closed for user www-data
+Jan 13 09:17:01 moodle CRON[10849]: pam_unix(cron:session): session closed for user root
+Jan 13 09:39:01 moodle CRON[10972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 09:39:01 moodle CRON[10972]: pam_unix(cron:session): session closed for user root
+Jan 13 10:09:01 moodle CRON[11121]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 10:09:01 moodle CRON[11121]: pam_unix(cron:session): session closed for user root
+Jan 13 10:17:01 moodle CRON[11157]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 10:17:01 moodle su[11162]: Successful su for www-data by root
+Jan 13 10:17:01 moodle su[11162]: + ??? root:www-data
+Jan 13 10:17:01 moodle su[11162]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 13 10:17:01 moodle su[11162]: pam_unix(su:session): session closed for user www-data
+Jan 13 10:17:01 moodle CRON[11157]: pam_unix(cron:session): session closed for user root
+Jan 13 10:39:01 moodle CRON[11261]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 10:39:01 moodle CRON[11261]: pam_unix(cron:session): session closed for user root
+Jan 13 11:09:01 moodle CRON[11409]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 11:09:01 moodle CRON[11409]: pam_unix(cron:session): session closed for user root
+Jan 13 11:17:01 moodle CRON[11463]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 11:17:01 moodle su[11468]: Successful su for www-data by root
+Jan 13 11:17:01 moodle su[11468]: + ??? root:www-data
+Jan 13 11:17:01 moodle su[11468]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 13 11:17:02 moodle su[11468]: pam_unix(su:session): session closed for user www-data
+Jan 13 11:17:02 moodle CRON[11463]: pam_unix(cron:session): session closed for user root
+Jan 13 11:39:01 moodle CRON[11567]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 11:39:01 moodle CRON[11567]: pam_unix(cron:session): session closed for user root
+Jan 13 11:44:54 moodle login[1124]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan 13 11:44:54 moodle login[11620]: ROOT LOGIN  on '/dev/tty1'
+Jan 13 11:48:16 moodle perl: pam_unix(webmin:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=root
+Jan 13 11:48:18 moodle webmin[1040]: Webmin starting
+Jan 13 11:48:55 moodle login[1168]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan 13 11:48:55 moodle login[1198]: ROOT LOGIN  on '/dev/tty1'
+Jan 13 11:50:35 moodle sshd[417]: Server listening on :: port 22.
+Jan 13 11:50:35 moodle sshd[417]: Server listening on 0.0.0.0 port 22.
+Jan 13 11:50:37 moodle sshd[417]: Received signal 15; terminating.
+Jan 13 11:50:37 moodle sshd[926]: Server listening on 0.0.0.0 port 22.
+Jan 13 11:50:37 moodle sshd[926]: Server listening on :: port 22.
+Jan 13 11:50:37 moodle perl: pam_unix(webmin:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=root
+Jan 13 11:50:40 moodle webmin[1135]: Webmin starting
+Jan 13 12:05:26 moodle sshd[926]: Received signal 15; terminating.
+Jan 13 12:05:26 moodle sshd[1525]: Server listening on 0.0.0.0 port 22.
+Jan 13 12:05:26 moodle sshd[1525]: Server listening on :: port 22.
+Jan 13 12:06:36 moodle sshd[643]: Received signal 15; terminating.
+Jan 13 12:06:36 moodle sshd[864]: Server listening on 0.0.0.0 port 22.
+Jan 13 12:06:36 moodle sshd[864]: Server listening on :: port 22.
+Jan 13 12:06:36 moodle perl: pam_unix(webmin:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=root
+Jan 13 12:06:38 moodle webmin[1054]: Webmin starting
+Jan 13 12:09:02 moodle CRON[1223]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 12:09:02 moodle CRON[1223]: pam_unix(cron:session): session closed for user root
+Jan 13 12:09:31 moodle login[1182]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan 13 12:09:31 moodle login[1247]: ROOT LOGIN  on '/dev/tty1'
+Jan 13 12:17:01 moodle CRON[1492]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 12:17:01 moodle su[1497]: Successful su for www-data by root
+Jan 13 12:17:01 moodle su[1497]: + ??? root:www-data
+Jan 13 12:17:01 moodle su[1497]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 13 12:17:06 moodle su[1497]: pam_unix(su:session): session closed for user www-data
+Jan 13 12:17:06 moodle CRON[1492]: pam_unix(cron:session): session closed for user root
+Jan 13 12:17:49 moodle login[1182]: pam_unix(login:session): session closed for user root
+Jan 13 12:18:03 moodle login[1515]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan 13 12:18:03 moodle login[1528]: ROOT LOGIN  on '/dev/tty1'
+Jan 13 12:18:59 moodle passwd[1563]: pam_unix(passwd:chauthtok): password changed for root
+Jan 13 12:19:03 moodle login[1515]: pam_unix(login:session): session closed for user root
+Jan 13 12:19:11 moodle login[1576]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan 13 12:19:11 moodle login[1612]: ROOT LOGIN  on '/dev/tty1'
+Jan 13 12:39:01 moodle CRON[1737]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 12:39:01 moodle CRON[1737]: pam_unix(cron:session): session closed for user root
+Jan 13 12:58:05 moodle login[1576]: pam_unix(login:session): session closed for user root
+Jan 13 12:58:12 moodle login[1858]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan 13 12:58:12 moodle login[1871]: ROOT LOGIN  on '/dev/tty1'
+Jan 13 13:00:52 moodle login[1858]: pam_unix(login:session): session closed for user root
+Jan 13 13:09:01 moodle CRON[1965]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 13:09:01 moodle CRON[1965]: pam_unix(cron:session): session closed for user root
+Jan 13 13:17:01 moodle CRON[2026]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 13:17:01 moodle su[2031]: Successful su for www-data by root
+Jan 13 13:17:01 moodle su[2031]: + ??? root:www-data
+Jan 13 13:17:01 moodle su[2031]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 13 13:17:05 moodle su[2031]: pam_unix(su:session): session closed for user www-data
+Jan 13 13:17:05 moodle CRON[2026]: pam_unix(cron:session): session closed for user root
+Jan 13 13:19:29 moodle login[1932]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan 13 13:19:29 moodle login[2051]: ROOT LOGIN  on '/dev/tty1'
+Jan 13 13:19:50 moodle sshd[412]: Server listening on :: port 22.
+Jan 13 13:19:50 moodle sshd[412]: Server listening on 0.0.0.0 port 22.
+Jan 13 13:19:51 moodle sshd[412]: Received signal 15; terminating.
+Jan 13 13:19:51 moodle sshd[880]: Server listening on 0.0.0.0 port 22.
+Jan 13 13:19:51 moodle sshd[880]: Server listening on :: port 22.
+Jan 13 13:19:52 moodle perl: pam_unix(webmin:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=root
+Jan 13 13:19:54 moodle webmin[1074]: Webmin starting
+Jan 13 13:20:20 moodle sshd[880]: Received signal 15; terminating.
+Jan 13 13:20:20 moodle sshd[1372]: Server listening on 0.0.0.0 port 22.
+Jan 13 13:20:20 moodle sshd[1372]: Server listening on :: port 22.
+Jan 13 13:22:43 moodle login[1202]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan 13 13:22:43 moodle login[1475]: ROOT LOGIN  on '/dev/tty1'
+Jan 13 13:25:15 moodle sshd[546]: Server listening on :: port 22.
+Jan 13 13:25:15 moodle sshd[546]: Server listening on 0.0.0.0 port 22.
+Jan 13 13:25:16 moodle sshd[546]: Received signal 15; terminating.
+Jan 13 13:25:16 moodle sshd[817]: Server listening on 0.0.0.0 port 22.
+Jan 13 13:25:16 moodle sshd[817]: Server listening on :: port 22.
+Jan 13 13:25:17 moodle perl: pam_unix(webmin:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=root
+Jan 13 13:25:19 moodle webmin[1046]: Webmin starting
+Jan 13 13:39:01 moodle CRON[1281]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 13:39:01 moodle CRON[1281]: pam_unix(cron:session): session closed for user root
+Jan 13 13:55:19 moodle sshd[817]: Received signal 15; terminating.
+Jan 13 13:55:19 moodle sshd[1518]: Server listening on 0.0.0.0 port 22.
+Jan 13 13:55:19 moodle sshd[1518]: Server listening on :: port 22.
+Jan 13 13:56:55 moodle sshd[587]: Server listening on :: port 22.
+Jan 13 13:56:55 moodle sshd[587]: Server listening on 0.0.0.0 port 22.
+Jan 13 13:56:57 moodle sshd[587]: Received signal 15; terminating.
+Jan 13 13:56:57 moodle sshd[893]: Server listening on 0.0.0.0 port 22.
+Jan 13 13:56:57 moodle sshd[893]: Server listening on :: port 22.
+Jan 13 13:56:57 moodle perl: pam_unix(webmin:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=root
+Jan 13 13:56:59 moodle webmin[1057]: Webmin starting
+Jan 13 14:09:01 moodle CRON[1270]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 14:09:01 moodle CRON[1270]: pam_unix(cron:session): session closed for user root
+Jan 13 14:17:01 moodle CRON[1332]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 14:17:01 moodle su[1337]: Successful su for www-data by root
+Jan 13 14:17:01 moodle su[1337]: + ??? root:www-data
+Jan 13 14:17:01 moodle su[1337]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 13 14:17:02 moodle su[1337]: pam_unix(su:session): session closed for user www-data
+Jan 13 14:17:02 moodle CRON[1332]: pam_unix(cron:session): session closed for user root
+Jan 13 14:39:01 moodle CRON[1454]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 14:39:01 moodle CRON[1454]: pam_unix(cron:session): session closed for user root
+Jan 13 15:09:01 moodle CRON[1627]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 15:09:01 moodle CRON[1627]: pam_unix(cron:session): session closed for user root
+Jan 13 15:17:01 moodle CRON[1667]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 15:17:01 moodle su[1672]: Successful su for www-data by root
+Jan 13 15:17:01 moodle su[1672]: + ??? root:www-data
+Jan 13 15:17:01 moodle su[1672]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 13 15:17:02 moodle su[1672]: pam_unix(su:session): session closed for user www-data
+Jan 13 15:17:02 moodle CRON[1667]: pam_unix(cron:session): session closed for user root
+Jan 13 15:39:01 moodle CRON[1811]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 15:39:01 moodle CRON[1811]: pam_unix(cron:session): session closed for user root
+Jan 13 16:09:01 moodle CRON[1961]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 16:09:01 moodle CRON[1961]: pam_unix(cron:session): session closed for user root
+Jan 13 16:17:01 moodle CRON[2023]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 16:17:01 moodle su[2028]: Successful su for www-data by root
+Jan 13 16:17:01 moodle su[2028]: + ??? root:www-data
+Jan 13 16:17:01 moodle su[2028]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 13 16:17:01 moodle su[2028]: pam_unix(su:session): session closed for user www-data
+Jan 13 16:17:01 moodle CRON[2023]: pam_unix(cron:session): session closed for user root
+Jan 13 16:39:01 moodle CRON[2143]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 16:39:01 moodle CRON[2143]: pam_unix(cron:session): session closed for user root
+Jan 13 17:09:01 moodle CRON[2316]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 17:09:01 moodle CRON[2316]: pam_unix(cron:session): session closed for user root
+Jan 13 17:17:01 moodle CRON[2379]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 17:17:01 moodle su[2384]: Successful su for www-data by root
+Jan 13 17:17:01 moodle su[2384]: + ??? root:www-data
+Jan 13 17:17:01 moodle su[2384]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 13 17:17:02 moodle su[2384]: pam_unix(su:session): session closed for user www-data
+Jan 13 17:17:02 moodle CRON[2379]: pam_unix(cron:session): session closed for user root
+Jan 13 17:39:01 moodle CRON[2500]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 17:39:01 moodle CRON[2500]: pam_unix(cron:session): session closed for user root
+Jan 13 18:09:01 moodle CRON[2674]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 18:09:01 moodle CRON[2674]: pam_unix(cron:session): session closed for user root
+Jan 13 18:17:01 moodle CRON[2713]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 18:17:01 moodle su[2718]: Successful su for www-data by root
+Jan 13 18:17:01 moodle su[2718]: + ??? root:www-data
+Jan 13 18:17:01 moodle su[2718]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 13 18:17:01 moodle su[2718]: pam_unix(su:session): session closed for user www-data
+Jan 13 18:17:01 moodle CRON[2713]: pam_unix(cron:session): session closed for user root
+Jan 13 18:39:01 moodle CRON[2856]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 18:39:01 moodle CRON[2856]: pam_unix(cron:session): session closed for user root
+Jan 13 19:09:01 moodle CRON[3031]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 19:09:01 moodle CRON[3031]: pam_unix(cron:session): session closed for user root
+Jan 13 19:17:01 moodle CRON[3069]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 19:17:01 moodle su[3074]: Successful su for www-data by root
+Jan 13 19:17:01 moodle su[3074]: + ??? root:www-data
+Jan 13 19:17:01 moodle su[3074]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 13 19:17:01 moodle su[3074]: pam_unix(su:session): session closed for user www-data
+Jan 13 19:17:01 moodle CRON[3069]: pam_unix(cron:session): session closed for user root
+Jan 13 19:24:01 moodle CRON[3131]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 19:39:01 moodle CRON[3205]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 19:39:01 moodle CRON[3205]: pam_unix(cron:session): session closed for user root
+Jan 13 20:09:01 moodle CRON[3499]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 20:09:01 moodle CRON[3499]: pam_unix(cron:session): session closed for user root
+Jan 13 20:17:01 moodle CRON[3561]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 20:17:01 moodle su[3566]: Successful su for www-data by root
+Jan 13 20:17:01 moodle su[3566]: + ??? root:www-data
+Jan 13 20:17:01 moodle su[3566]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 13 20:17:02 moodle su[3566]: pam_unix(su:session): session closed for user www-data
+Jan 13 20:17:02 moodle CRON[3561]: pam_unix(cron:session): session closed for user root
+Jan 13 20:39:01 moodle CRON[3683]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 20:39:01 moodle CRON[3683]: pam_unix(cron:session): session closed for user root
+Jan 13 20:58:26 moodle CRON[3131]: pam_unix(cron:session): session closed for user root
+Jan 13 21:09:01 moodle CRON[11914]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 21:09:01 moodle CRON[11914]: pam_unix(cron:session): session closed for user root
+Jan 13 21:17:01 moodle CRON[11976]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 21:17:01 moodle su[11981]: Successful su for www-data by root
+Jan 13 21:17:01 moodle su[11981]: + ??? root:www-data
+Jan 13 21:17:01 moodle su[11981]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 13 21:17:02 moodle su[11981]: pam_unix(su:session): session closed for user www-data
+Jan 13 21:17:02 moodle CRON[11976]: pam_unix(cron:session): session closed for user root
+Jan 13 21:39:01 moodle CRON[12097]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 21:39:01 moodle CRON[12097]: pam_unix(cron:session): session closed for user root
+Jan 13 22:09:01 moodle CRON[12270]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 22:09:01 moodle CRON[12270]: pam_unix(cron:session): session closed for user root
+Jan 13 22:17:01 moodle CRON[12310]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 22:17:01 moodle su[12315]: Successful su for www-data by root
+Jan 13 22:17:01 moodle su[12315]: + ??? root:www-data
+Jan 13 22:17:01 moodle su[12315]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 13 22:17:01 moodle su[12315]: pam_unix(su:session): session closed for user www-data
+Jan 13 22:17:01 moodle CRON[12310]: pam_unix(cron:session): session closed for user root
+Jan 13 22:39:01 moodle CRON[12453]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 22:39:01 moodle CRON[12453]: pam_unix(cron:session): session closed for user root
+Jan 13 23:09:01 moodle CRON[12605]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 23:09:01 moodle CRON[12605]: pam_unix(cron:session): session closed for user root
+Jan 13 23:17:01 moodle CRON[12667]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 23:17:01 moodle su[12672]: Successful su for www-data by root
+Jan 13 23:17:01 moodle su[12672]: + ??? root:www-data
+Jan 13 23:17:01 moodle su[12672]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 13 23:17:02 moodle su[12672]: pam_unix(su:session): session closed for user www-data
+Jan 13 23:17:02 moodle CRON[12667]: pam_unix(cron:session): session closed for user root
+Jan 13 23:39:01 moodle CRON[12787]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 13 23:39:01 moodle CRON[12787]: pam_unix(cron:session): session closed for user root
+Jan 14 00:09:01 moodle CRON[12963]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 00:09:01 moodle CRON[12963]: pam_unix(cron:session): session closed for user root
+Jan 14 00:17:01 moodle CRON[13025]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 00:17:01 moodle su[13030]: Successful su for www-data by root
+Jan 14 00:17:01 moodle su[13030]: + ??? root:www-data
+Jan 14 00:17:01 moodle su[13030]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 00:17:01 moodle su[13030]: pam_unix(su:session): session closed for user www-data
+Jan 14 00:17:01 moodle CRON[13025]: pam_unix(cron:session): session closed for user root
+Jan 14 00:39:01 moodle CRON[13146]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 00:39:01 moodle CRON[13146]: pam_unix(cron:session): session closed for user root
+Jan 14 01:09:01 moodle CRON[13319]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 01:09:01 moodle CRON[13319]: pam_unix(cron:session): session closed for user root
+Jan 14 01:17:01 moodle CRON[13358]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 01:17:01 moodle su[13363]: Successful su for www-data by root
+Jan 14 01:17:01 moodle su[13363]: + ??? root:www-data
+Jan 14 01:17:01 moodle su[13363]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 01:17:02 moodle su[13363]: pam_unix(su:session): session closed for user www-data
+Jan 14 01:17:02 moodle CRON[13358]: pam_unix(cron:session): session closed for user root
+Jan 14 01:39:01 moodle CRON[13503]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 01:39:01 moodle CRON[13503]: pam_unix(cron:session): session closed for user root
+Jan 14 02:09:01 moodle CRON[13677]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 02:09:01 moodle CRON[13677]: pam_unix(cron:session): session closed for user root
+Jan 14 02:17:01 moodle CRON[13716]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 02:17:01 moodle su[13721]: Successful su for www-data by root
+Jan 14 02:17:01 moodle su[13721]: + ??? root:www-data
+Jan 14 02:17:01 moodle su[13721]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 02:17:01 moodle su[13721]: pam_unix(su:session): session closed for user www-data
+Jan 14 02:17:01 moodle CRON[13716]: pam_unix(cron:session): session closed for user root
+Jan 14 02:39:01 moodle CRON[13836]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 02:39:01 moodle CRON[13836]: pam_unix(cron:session): session closed for user root
+Jan 14 03:09:01 moodle CRON[14009]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 03:09:01 moodle CRON[14009]: pam_unix(cron:session): session closed for user root
+Jan 14 03:17:01 moodle CRON[14072]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 03:17:01 moodle su[14077]: Successful su for www-data by root
+Jan 14 03:17:01 moodle su[14077]: + ??? root:www-data
+Jan 14 03:17:01 moodle su[14077]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 03:17:02 moodle su[14077]: pam_unix(su:session): session closed for user www-data
+Jan 14 03:17:02 moodle CRON[14072]: pam_unix(cron:session): session closed for user root
+Jan 14 03:39:01 moodle CRON[14192]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 03:39:01 moodle CRON[14192]: pam_unix(cron:session): session closed for user root
+Jan 14 04:09:01 moodle CRON[14365]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 04:09:01 moodle CRON[14365]: pam_unix(cron:session): session closed for user root
+Jan 14 04:17:01 moodle CRON[14427]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 04:17:01 moodle su[14432]: Successful su for www-data by root
+Jan 14 04:17:01 moodle su[14432]: + ??? root:www-data
+Jan 14 04:17:01 moodle su[14432]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 04:17:01 moodle su[14432]: pam_unix(su:session): session closed for user www-data
+Jan 14 04:17:01 moodle CRON[14427]: pam_unix(cron:session): session closed for user root
+Jan 14 04:39:01 moodle CRON[14547]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 04:39:01 moodle CRON[14547]: pam_unix(cron:session): session closed for user root
+Jan 14 05:09:01 moodle CRON[14722]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 05:09:01 moodle CRON[14722]: pam_unix(cron:session): session closed for user root
+Jan 14 05:17:01 moodle CRON[14761]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 05:17:01 moodle su[14766]: Successful su for www-data by root
+Jan 14 05:17:01 moodle su[14766]: + ??? root:www-data
+Jan 14 05:17:01 moodle su[14766]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 05:17:01 moodle su[14766]: pam_unix(su:session): session closed for user www-data
+Jan 14 05:17:01 moodle CRON[14761]: pam_unix(cron:session): session closed for user root
+Jan 14 05:39:01 moodle CRON[14904]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 05:39:01 moodle CRON[14904]: pam_unix(cron:session): session closed for user root
+Jan 14 06:09:01 moodle CRON[15054]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 06:09:01 moodle CRON[15054]: pam_unix(cron:session): session closed for user root
+Jan 14 06:17:01 moodle CRON[15116]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 06:17:01 moodle su[15121]: Successful su for www-data by root
+Jan 14 06:17:01 moodle su[15121]: + ??? root:www-data
+Jan 14 06:17:01 moodle su[15121]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 06:17:02 moodle su[15121]: pam_unix(su:session): session closed for user www-data
+Jan 14 06:17:02 moodle CRON[15116]: pam_unix(cron:session): session closed for user root
+Jan 14 06:25:01 moodle CRON[15178]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 06:25:03 moodle CRON[15178]: pam_unix(cron:session): session closed for user root
+Jan 14 06:39:01 moodle CRON[15651]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 06:39:01 moodle CRON[15651]: pam_unix(cron:session): session closed for user root
+Jan 14 07:09:01 moodle CRON[15824]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 07:09:01 moodle CRON[15824]: pam_unix(cron:session): session closed for user root
+Jan 14 07:17:01 moodle CRON[15886]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 07:17:01 moodle su[15891]: Successful su for www-data by root
+Jan 14 07:17:01 moodle su[15891]: + ??? root:www-data
+Jan 14 07:17:01 moodle su[15891]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 07:17:02 moodle su[15891]: pam_unix(su:session): session closed for user www-data
+Jan 14 07:17:02 moodle CRON[15886]: pam_unix(cron:session): session closed for user root
+Jan 14 07:39:01 moodle CRON[16005]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 07:39:01 moodle CRON[16005]: pam_unix(cron:session): session closed for user root
+Jan 14 08:09:01 moodle CRON[16178]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 08:09:01 moodle CRON[16178]: pam_unix(cron:session): session closed for user root
+Jan 14 08:17:01 moodle CRON[16218]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 08:17:01 moodle su[16223]: Successful su for www-data by root
+Jan 14 08:17:01 moodle su[16223]: + ??? root:www-data
+Jan 14 08:17:01 moodle su[16223]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 08:17:01 moodle su[16223]: pam_unix(su:session): session closed for user www-data
+Jan 14 08:17:01 moodle CRON[16218]: pam_unix(cron:session): session closed for user root
+Jan 14 08:39:01 moodle CRON[16361]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 08:39:01 moodle CRON[16361]: pam_unix(cron:session): session closed for user root
+Jan 14 09:09:01 moodle CRON[16534]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 09:09:01 moodle CRON[16534]: pam_unix(cron:session): session closed for user root
+Jan 14 09:17:01 moodle CRON[16573]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 09:17:01 moodle su[16578]: Successful su for www-data by root
+Jan 14 09:17:01 moodle su[16578]: + ??? root:www-data
+Jan 14 09:17:01 moodle su[16578]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 09:17:02 moodle su[16578]: pam_unix(su:session): session closed for user www-data
+Jan 14 09:17:02 moodle CRON[16573]: pam_unix(cron:session): session closed for user root
+Jan 14 09:39:01 moodle CRON[16716]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 09:39:01 moodle CRON[16716]: pam_unix(cron:session): session closed for user root
+Jan 14 10:09:01 moodle CRON[16867]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 10:09:01 moodle CRON[16867]: pam_unix(cron:session): session closed for user root
+Jan 14 10:17:01 moodle CRON[16929]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 10:17:01 moodle su[16934]: Successful su for www-data by root
+Jan 14 10:17:01 moodle su[16934]: + ??? root:www-data
+Jan 14 10:17:01 moodle su[16934]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 10:17:01 moodle su[16934]: pam_unix(su:session): session closed for user www-data
+Jan 14 10:17:01 moodle CRON[16929]: pam_unix(cron:session): session closed for user root
+Jan 14 10:39:01 moodle CRON[17049]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 10:39:01 moodle CRON[17049]: pam_unix(cron:session): session closed for user root
+Jan 14 11:09:01 moodle CRON[17222]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 11:09:01 moodle CRON[17222]: pam_unix(cron:session): session closed for user root
+Jan 14 11:17:01 moodle CRON[17284]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 11:17:01 moodle su[17289]: Successful su for www-data by root
+Jan 14 11:17:01 moodle su[17289]: + ??? root:www-data
+Jan 14 11:17:01 moodle su[17289]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 11:17:02 moodle su[17289]: pam_unix(su:session): session closed for user www-data
+Jan 14 11:17:02 moodle CRON[17284]: pam_unix(cron:session): session closed for user root
+Jan 14 11:39:01 moodle CRON[17405]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 11:39:01 moodle CRON[17405]: pam_unix(cron:session): session closed for user root
+Jan 14 12:09:01 moodle CRON[17578]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 12:09:01 moodle CRON[17578]: pam_unix(cron:session): session closed for user root
+Jan 14 12:17:01 moodle CRON[17617]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 12:17:01 moodle su[17622]: Successful su for www-data by root
+Jan 14 12:17:01 moodle su[17622]: + ??? root:www-data
+Jan 14 12:17:01 moodle su[17622]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 12:17:01 moodle su[17622]: pam_unix(su:session): session closed for user www-data
+Jan 14 12:17:01 moodle CRON[17617]: pam_unix(cron:session): session closed for user root
+Jan 14 12:39:01 moodle CRON[17760]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 12:39:01 moodle CRON[17760]: pam_unix(cron:session): session closed for user root
+Jan 14 13:09:01 moodle CRON[17932]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 13:09:01 moodle CRON[17932]: pam_unix(cron:session): session closed for user root
+Jan 14 13:17:01 moodle CRON[17972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 13:17:01 moodle su[17977]: Successful su for www-data by root
+Jan 14 13:17:01 moodle su[17977]: + ??? root:www-data
+Jan 14 13:17:01 moodle su[17977]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 13:17:01 moodle su[17977]: pam_unix(su:session): session closed for user www-data
+Jan 14 13:17:01 moodle CRON[17972]: pam_unix(cron:session): session closed for user root
+Jan 14 13:39:01 moodle CRON[18092]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 13:39:01 moodle CRON[18092]: pam_unix(cron:session): session closed for user root
+Jan 14 14:09:01 moodle CRON[18266]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 14:09:01 moodle CRON[18266]: pam_unix(cron:session): session closed for user root
+Jan 14 14:17:01 moodle CRON[18328]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 14:17:01 moodle su[18333]: Successful su for www-data by root
+Jan 14 14:17:01 moodle su[18333]: + ??? root:www-data
+Jan 14 14:17:01 moodle su[18333]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 14:17:02 moodle su[18333]: pam_unix(su:session): session closed for user www-data
+Jan 14 14:17:02 moodle CRON[18328]: pam_unix(cron:session): session closed for user root
+Jan 14 14:39:01 moodle CRON[18448]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 14:39:01 moodle CRON[18448]: pam_unix(cron:session): session closed for user root
+Jan 14 15:09:01 moodle CRON[18622]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 15:09:01 moodle CRON[18622]: pam_unix(cron:session): session closed for user root
+Jan 14 15:17:01 moodle CRON[18684]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 15:17:01 moodle su[18689]: Successful su for www-data by root
+Jan 14 15:17:01 moodle su[18689]: + ??? root:www-data
+Jan 14 15:17:01 moodle su[18689]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 15:17:01 moodle su[18689]: pam_unix(su:session): session closed for user www-data
+Jan 14 15:17:01 moodle CRON[18684]: pam_unix(cron:session): session closed for user root
+Jan 14 15:39:01 moodle CRON[18804]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 15:39:01 moodle CRON[18804]: pam_unix(cron:session): session closed for user root
+Jan 14 16:09:01 moodle CRON[18977]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 16:09:01 moodle CRON[18977]: pam_unix(cron:session): session closed for user root
+Jan 14 16:17:01 moodle CRON[19016]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 16:17:01 moodle su[19021]: Successful su for www-data by root
+Jan 14 16:17:01 moodle su[19021]: + ??? root:www-data
+Jan 14 16:17:01 moodle su[19021]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 16:17:02 moodle su[19021]: pam_unix(su:session): session closed for user www-data
+Jan 14 16:17:02 moodle CRON[19016]: pam_unix(cron:session): session closed for user root
+Jan 14 16:39:01 moodle CRON[19137]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 16:39:01 moodle CRON[19137]: pam_unix(cron:session): session closed for user root
+Jan 14 17:09:01 moodle CRON[19310]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 17:09:01 moodle CRON[19310]: pam_unix(cron:session): session closed for user root
+Jan 14 17:17:01 moodle CRON[19372]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 17:17:01 moodle su[19377]: Successful su for www-data by root
+Jan 14 17:17:01 moodle su[19377]: + ??? root:www-data
+Jan 14 17:17:01 moodle su[19377]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 17:17:01 moodle su[19377]: pam_unix(su:session): session closed for user www-data
+Jan 14 17:17:01 moodle CRON[19372]: pam_unix(cron:session): session closed for user root
+Jan 14 17:39:01 moodle CRON[19492]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 17:39:01 moodle CRON[19492]: pam_unix(cron:session): session closed for user root
+Jan 14 18:09:01 moodle CRON[19665]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 18:09:01 moodle CRON[19665]: pam_unix(cron:session): session closed for user root
+Jan 14 18:17:01 moodle CRON[19728]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 18:17:01 moodle su[19733]: Successful su for www-data by root
+Jan 14 18:17:01 moodle su[19733]: + ??? root:www-data
+Jan 14 18:17:01 moodle su[19733]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 18:17:02 moodle su[19733]: pam_unix(su:session): session closed for user www-data
+Jan 14 18:17:02 moodle CRON[19728]: pam_unix(cron:session): session closed for user root
+Jan 14 18:39:01 moodle CRON[19848]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 18:39:01 moodle CRON[19848]: pam_unix(cron:session): session closed for user root
+Jan 14 19:09:01 moodle CRON[20021]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 19:09:01 moodle CRON[20021]: pam_unix(cron:session): session closed for user root
+Jan 14 19:17:01 moodle CRON[20059]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 19:17:01 moodle su[20064]: Successful su for www-data by root
+Jan 14 19:17:01 moodle su[20064]: + ??? root:www-data
+Jan 14 19:17:01 moodle su[20064]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 19:17:01 moodle su[20064]: pam_unix(su:session): session closed for user www-data
+Jan 14 19:17:01 moodle CRON[20059]: pam_unix(cron:session): session closed for user root
+Jan 14 19:24:01 moodle CRON[20120]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 19:35:53 moodle CRON[20120]: pam_unix(cron:session): session closed for user root
+Jan 14 19:39:01 moodle CRON[20348]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 19:39:01 moodle CRON[20348]: pam_unix(cron:session): session closed for user root
+Jan 14 20:09:01 moodle CRON[20522]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 20:09:01 moodle CRON[20522]: pam_unix(cron:session): session closed for user root
+Jan 14 20:17:01 moodle CRON[20561]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 20:17:01 moodle su[20566]: Successful su for www-data by root
+Jan 14 20:17:01 moodle su[20566]: + ??? root:www-data
+Jan 14 20:17:01 moodle su[20566]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 20:17:01 moodle su[20566]: pam_unix(su:session): session closed for user www-data
+Jan 14 20:17:01 moodle CRON[20561]: pam_unix(cron:session): session closed for user root
+Jan 14 20:39:01 moodle CRON[20681]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 20:39:01 moodle CRON[20681]: pam_unix(cron:session): session closed for user root
+Jan 14 21:09:01 moodle CRON[20854]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 21:09:01 moodle CRON[20854]: pam_unix(cron:session): session closed for user root
+Jan 14 21:17:01 moodle CRON[20916]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 21:17:01 moodle su[20921]: Successful su for www-data by root
+Jan 14 21:17:01 moodle su[20921]: + ??? root:www-data
+Jan 14 21:17:01 moodle su[20921]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 21:17:02 moodle su[20921]: pam_unix(su:session): session closed for user www-data
+Jan 14 21:17:02 moodle CRON[20916]: pam_unix(cron:session): session closed for user root
+Jan 14 21:39:01 moodle CRON[21037]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 21:39:01 moodle CRON[21037]: pam_unix(cron:session): session closed for user root
+Jan 14 22:09:01 moodle CRON[21210]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 22:09:01 moodle CRON[21210]: pam_unix(cron:session): session closed for user root
+Jan 14 22:17:01 moodle CRON[21272]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 22:17:01 moodle su[21277]: Successful su for www-data by root
+Jan 14 22:17:01 moodle su[21277]: + ??? root:www-data
+Jan 14 22:17:01 moodle su[21277]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 22:17:01 moodle su[21277]: pam_unix(su:session): session closed for user www-data
+Jan 14 22:17:01 moodle CRON[21272]: pam_unix(cron:session): session closed for user root
+Jan 14 22:39:01 moodle CRON[21392]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 22:39:01 moodle CRON[21392]: pam_unix(cron:session): session closed for user root
+Jan 14 23:09:01 moodle CRON[21565]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 23:09:01 moodle CRON[21565]: pam_unix(cron:session): session closed for user root
+Jan 14 23:17:01 moodle CRON[21605]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 23:17:01 moodle su[21610]: Successful su for www-data by root
+Jan 14 23:17:01 moodle su[21610]: + ??? root:www-data
+Jan 14 23:17:01 moodle su[21610]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 14 23:17:02 moodle su[21610]: pam_unix(su:session): session closed for user www-data
+Jan 14 23:17:02 moodle CRON[21605]: pam_unix(cron:session): session closed for user root
+Jan 14 23:39:01 moodle CRON[21748]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 14 23:39:01 moodle CRON[21748]: pam_unix(cron:session): session closed for user root
+Jan 15 00:09:01 moodle CRON[21898]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 00:09:01 moodle CRON[21898]: pam_unix(cron:session): session closed for user root
+Jan 15 00:17:01 moodle CRON[21960]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 00:17:01 moodle su[21965]: Successful su for www-data by root
+Jan 15 00:17:01 moodle su[21965]: + ??? root:www-data
+Jan 15 00:17:01 moodle su[21965]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 00:17:01 moodle su[21965]: pam_unix(su:session): session closed for user www-data
+Jan 15 00:17:01 moodle CRON[21960]: pam_unix(cron:session): session closed for user root
+Jan 15 00:39:01 moodle CRON[22080]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 00:39:01 moodle CRON[22080]: pam_unix(cron:session): session closed for user root
+Jan 15 01:09:01 moodle CRON[22254]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 01:09:01 moodle CRON[22254]: pam_unix(cron:session): session closed for user root
+Jan 15 01:17:01 moodle CRON[22315]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 01:17:01 moodle su[22320]: Successful su for www-data by root
+Jan 15 01:17:01 moodle su[22320]: + ??? root:www-data
+Jan 15 01:17:01 moodle su[22320]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 01:17:01 moodle su[22320]: pam_unix(su:session): session closed for user www-data
+Jan 15 01:17:01 moodle CRON[22315]: pam_unix(cron:session): session closed for user root
+Jan 15 01:39:01 moodle CRON[22435]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 01:39:01 moodle CRON[22435]: pam_unix(cron:session): session closed for user root
+Jan 15 02:09:01 moodle CRON[22608]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 02:09:01 moodle CRON[22608]: pam_unix(cron:session): session closed for user root
+Jan 15 02:17:01 moodle CRON[22647]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 02:17:01 moodle su[22652]: Successful su for www-data by root
+Jan 15 02:17:01 moodle su[22652]: + ??? root:www-data
+Jan 15 02:17:01 moodle su[22652]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 02:17:02 moodle su[22652]: pam_unix(su:session): session closed for user www-data
+Jan 15 02:17:02 moodle CRON[22647]: pam_unix(cron:session): session closed for user root
+Jan 15 02:39:01 moodle CRON[22791]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 02:39:01 moodle CRON[22791]: pam_unix(cron:session): session closed for user root
+Jan 15 03:09:01 moodle CRON[22964]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 03:09:01 moodle CRON[22964]: pam_unix(cron:session): session closed for user root
+Jan 15 03:17:01 moodle CRON[23003]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 03:17:01 moodle su[23008]: Successful su for www-data by root
+Jan 15 03:17:01 moodle su[23008]: + ??? root:www-data
+Jan 15 03:17:01 moodle su[23008]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 03:17:01 moodle su[23008]: pam_unix(su:session): session closed for user www-data
+Jan 15 03:17:01 moodle CRON[23003]: pam_unix(cron:session): session closed for user root
+Jan 15 03:39:01 moodle CRON[23123]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 03:39:01 moodle CRON[23123]: pam_unix(cron:session): session closed for user root
+Jan 15 04:09:01 moodle CRON[23296]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 04:09:01 moodle CRON[23296]: pam_unix(cron:session): session closed for user root
+Jan 15 04:17:01 moodle CRON[23359]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 04:17:01 moodle su[23364]: Successful su for www-data by root
+Jan 15 04:17:01 moodle su[23364]: + ??? root:www-data
+Jan 15 04:17:01 moodle su[23364]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 04:17:02 moodle su[23364]: pam_unix(su:session): session closed for user www-data
+Jan 15 04:17:02 moodle CRON[23359]: pam_unix(cron:session): session closed for user root
+Jan 15 04:39:01 moodle CRON[23479]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 04:39:01 moodle CRON[23479]: pam_unix(cron:session): session closed for user root
+Jan 15 05:09:01 moodle CRON[23652]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 05:09:01 moodle CRON[23652]: pam_unix(cron:session): session closed for user root
+Jan 15 05:17:01 moodle CRON[23714]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 05:17:01 moodle su[23719]: Successful su for www-data by root
+Jan 15 05:17:01 moodle su[23719]: + ??? root:www-data
+Jan 15 05:17:01 moodle su[23719]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 05:17:01 moodle su[23719]: pam_unix(su:session): session closed for user www-data
+Jan 15 05:17:01 moodle CRON[23714]: pam_unix(cron:session): session closed for user root
+Jan 15 05:39:01 moodle CRON[23834]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 05:39:01 moodle CRON[23834]: pam_unix(cron:session): session closed for user root
+Jan 15 06:09:01 moodle CRON[24007]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 06:09:01 moodle CRON[24007]: pam_unix(cron:session): session closed for user root
+Jan 15 06:17:01 moodle CRON[24046]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 06:17:01 moodle su[24051]: Successful su for www-data by root
+Jan 15 06:17:01 moodle su[24051]: + ??? root:www-data
+Jan 15 06:17:01 moodle su[24051]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 06:17:02 moodle su[24051]: pam_unix(su:session): session closed for user www-data
+Jan 15 06:17:02 moodle CRON[24046]: pam_unix(cron:session): session closed for user root
+Jan 15 06:25:01 moodle CRON[24108]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 06:25:03 moodle CRON[24108]: pam_unix(cron:session): session closed for user root
+Jan 15 06:39:01 moodle CRON[24551]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 06:39:01 moodle CRON[24551]: pam_unix(cron:session): session closed for user root
+Jan 15 07:09:01 moodle CRON[24701]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 07:09:01 moodle CRON[24701]: pam_unix(cron:session): session closed for user root
+Jan 15 07:17:01 moodle CRON[24763]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 07:17:01 moodle su[24768]: Successful su for www-data by root
+Jan 15 07:17:01 moodle su[24768]: + ??? root:www-data
+Jan 15 07:17:01 moodle su[24768]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 07:17:01 moodle su[24768]: pam_unix(su:session): session closed for user www-data
+Jan 15 07:17:01 moodle CRON[24763]: pam_unix(cron:session): session closed for user root
+Jan 15 07:39:01 moodle CRON[24884]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 07:39:01 moodle CRON[24884]: pam_unix(cron:session): session closed for user root
+Jan 15 08:09:02 moodle CRON[25057]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 08:09:02 moodle CRON[25057]: pam_unix(cron:session): session closed for user root
+Jan 15 08:17:01 moodle CRON[25119]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 08:17:01 moodle su[25124]: Successful su for www-data by root
+Jan 15 08:17:01 moodle su[25124]: + ??? root:www-data
+Jan 15 08:17:01 moodle su[25124]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 08:17:01 moodle su[25124]: pam_unix(su:session): session closed for user www-data
+Jan 15 08:17:01 moodle CRON[25119]: pam_unix(cron:session): session closed for user root
+Jan 15 08:39:01 moodle CRON[25239]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 08:39:01 moodle CRON[25239]: pam_unix(cron:session): session closed for user root
+Jan 15 09:09:01 moodle CRON[25412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 09:09:01 moodle CRON[25412]: pam_unix(cron:session): session closed for user root
+Jan 15 09:17:01 moodle CRON[25452]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 09:17:01 moodle su[25457]: Successful su for www-data by root
+Jan 15 09:17:01 moodle su[25457]: + ??? root:www-data
+Jan 15 09:17:01 moodle su[25457]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 09:17:01 moodle su[25457]: pam_unix(su:session): session closed for user www-data
+Jan 15 09:17:01 moodle CRON[25452]: pam_unix(cron:session): session closed for user root
+Jan 15 09:39:01 moodle CRON[25595]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 09:39:01 moodle CRON[25595]: pam_unix(cron:session): session closed for user root
+Jan 15 10:09:01 moodle CRON[25768]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 10:09:01 moodle CRON[25768]: pam_unix(cron:session): session closed for user root
+Jan 15 10:17:01 moodle CRON[25807]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 10:17:01 moodle su[25812]: Successful su for www-data by root
+Jan 15 10:17:01 moodle su[25812]: + ??? root:www-data
+Jan 15 10:17:01 moodle su[25812]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 10:17:02 moodle su[25812]: pam_unix(su:session): session closed for user www-data
+Jan 15 10:17:02 moodle CRON[25807]: pam_unix(cron:session): session closed for user root
+Jan 15 10:39:01 moodle CRON[25927]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 10:39:01 moodle CRON[25927]: pam_unix(cron:session): session closed for user root
+Jan 15 11:09:01 moodle CRON[26100]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 11:09:01 moodle CRON[26100]: pam_unix(cron:session): session closed for user root
+Jan 15 11:17:01 moodle CRON[26162]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 11:17:01 moodle su[26167]: Successful su for www-data by root
+Jan 15 11:17:01 moodle su[26167]: + ??? root:www-data
+Jan 15 11:17:01 moodle su[26167]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 11:17:01 moodle su[26167]: pam_unix(su:session): session closed for user www-data
+Jan 15 11:17:01 moodle CRON[26162]: pam_unix(cron:session): session closed for user root
+Jan 15 11:39:01 moodle CRON[26282]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 11:39:01 moodle CRON[26282]: pam_unix(cron:session): session closed for user root
+Jan 15 12:09:01 moodle CRON[26455]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 12:09:01 moodle CRON[26455]: pam_unix(cron:session): session closed for user root
+Jan 15 12:17:01 moodle CRON[26517]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 12:17:01 moodle su[26522]: Successful su for www-data by root
+Jan 15 12:17:01 moodle su[26522]: + ??? root:www-data
+Jan 15 12:17:01 moodle su[26522]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 12:17:02 moodle su[26522]: pam_unix(su:session): session closed for user www-data
+Jan 15 12:17:02 moodle CRON[26517]: pam_unix(cron:session): session closed for user root
+Jan 15 12:39:01 moodle CRON[26638]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 12:39:01 moodle CRON[26638]: pam_unix(cron:session): session closed for user root
+Jan 15 13:09:01 moodle CRON[26811]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 13:09:01 moodle CRON[26811]: pam_unix(cron:session): session closed for user root
+Jan 15 13:17:01 moodle CRON[26850]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 13:17:01 moodle su[26855]: Successful su for www-data by root
+Jan 15 13:17:01 moodle su[26855]: + ??? root:www-data
+Jan 15 13:17:01 moodle su[26855]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 13:17:01 moodle su[26855]: pam_unix(su:session): session closed for user www-data
+Jan 15 13:17:01 moodle CRON[26850]: pam_unix(cron:session): session closed for user root
+Jan 15 13:39:01 moodle CRON[26993]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 13:39:01 moodle CRON[26993]: pam_unix(cron:session): session closed for user root
+Jan 15 14:09:01 moodle CRON[27143]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 14:09:01 moodle CRON[27143]: pam_unix(cron:session): session closed for user root
+Jan 15 14:17:01 moodle CRON[27207]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 14:17:01 moodle su[27212]: Successful su for www-data by root
+Jan 15 14:17:01 moodle su[27212]: + ??? root:www-data
+Jan 15 14:17:01 moodle su[27212]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 14:17:02 moodle su[27212]: pam_unix(su:session): session closed for user www-data
+Jan 15 14:17:02 moodle CRON[27207]: pam_unix(cron:session): session closed for user root
+Jan 15 14:39:01 moodle CRON[27327]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 14:39:01 moodle CRON[27327]: pam_unix(cron:session): session closed for user root
+Jan 15 15:09:01 moodle CRON[27500]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 15:09:01 moodle CRON[27500]: pam_unix(cron:session): session closed for user root
+Jan 15 15:17:01 moodle CRON[27562]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 15:17:01 moodle su[27567]: Successful su for www-data by root
+Jan 15 15:17:01 moodle su[27567]: + ??? root:www-data
+Jan 15 15:17:01 moodle su[27567]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 15:17:01 moodle su[27567]: pam_unix(su:session): session closed for user www-data
+Jan 15 15:17:01 moodle CRON[27562]: pam_unix(cron:session): session closed for user root
+Jan 15 15:39:01 moodle CRON[27682]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 15:39:01 moodle CRON[27682]: pam_unix(cron:session): session closed for user root
+Jan 15 16:09:01 moodle CRON[27857]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 16:09:01 moodle CRON[27857]: pam_unix(cron:session): session closed for user root
+Jan 15 16:17:01 moodle CRON[27896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 16:17:01 moodle su[27901]: Successful su for www-data by root
+Jan 15 16:17:01 moodle su[27901]: + ??? root:www-data
+Jan 15 16:17:01 moodle su[27901]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 16:17:01 moodle su[27901]: pam_unix(su:session): session closed for user www-data
+Jan 15 16:17:01 moodle CRON[27896]: pam_unix(cron:session): session closed for user root
+Jan 15 16:39:01 moodle CRON[28039]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 16:39:01 moodle CRON[28039]: pam_unix(cron:session): session closed for user root
+Jan 15 17:09:01 moodle CRON[28212]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 17:09:01 moodle CRON[28212]: pam_unix(cron:session): session closed for user root
+Jan 15 17:17:01 moodle CRON[28251]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 17:17:01 moodle su[28256]: Successful su for www-data by root
+Jan 15 17:17:01 moodle su[28256]: + ??? root:www-data
+Jan 15 17:17:01 moodle su[28256]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 17:17:02 moodle su[28256]: pam_unix(su:session): session closed for user www-data
+Jan 15 17:17:02 moodle CRON[28251]: pam_unix(cron:session): session closed for user root
+Jan 15 17:39:01 moodle CRON[28372]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 17:39:01 moodle CRON[28372]: pam_unix(cron:session): session closed for user root
+Jan 15 18:09:01 moodle CRON[28547]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 18:09:01 moodle CRON[28547]: pam_unix(cron:session): session closed for user root
+Jan 15 18:17:01 moodle CRON[28609]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 18:17:01 moodle su[28614]: Successful su for www-data by root
+Jan 15 18:17:01 moodle su[28614]: + ??? root:www-data
+Jan 15 18:17:01 moodle su[28614]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 18:17:01 moodle su[28614]: pam_unix(su:session): session closed for user www-data
+Jan 15 18:17:01 moodle CRON[28609]: pam_unix(cron:session): session closed for user root
+Jan 15 18:39:01 moodle CRON[28729]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 18:39:01 moodle CRON[28729]: pam_unix(cron:session): session closed for user root
+Jan 15 19:09:01 moodle CRON[28903]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 19:09:01 moodle CRON[28903]: pam_unix(cron:session): session closed for user root
+Jan 15 19:17:01 moodle CRON[28967]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 19:17:01 moodle su[28972]: Successful su for www-data by root
+Jan 15 19:17:01 moodle su[28972]: + ??? root:www-data
+Jan 15 19:17:01 moodle su[28972]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 19:17:02 moodle su[28972]: pam_unix(su:session): session closed for user www-data
+Jan 15 19:17:02 moodle CRON[28967]: pam_unix(cron:session): session closed for user root
+Jan 15 19:24:01 moodle CRON[29005]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 19:39:01 moodle CRON[29103]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 19:39:01 moodle CRON[29103]: pam_unix(cron:session): session closed for user root
+Jan 15 19:55:16 moodle CRON[29005]: pam_unix(cron:session): session closed for user root
+Jan 15 20:09:01 moodle CRON[29792]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 20:09:01 moodle CRON[29792]: pam_unix(cron:session): session closed for user root
+Jan 15 20:17:01 moodle CRON[29831]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 20:17:01 moodle su[29836]: Successful su for www-data by root
+Jan 15 20:17:01 moodle su[29836]: + ??? root:www-data
+Jan 15 20:17:01 moodle su[29836]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 20:17:01 moodle su[29836]: pam_unix(su:session): session closed for user www-data
+Jan 15 20:17:01 moodle CRON[29831]: pam_unix(cron:session): session closed for user root
+Jan 15 20:39:01 moodle CRON[29975]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 20:39:01 moodle CRON[29975]: pam_unix(cron:session): session closed for user root
+Jan 15 21:09:01 moodle CRON[30126]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 21:09:01 moodle CRON[30126]: pam_unix(cron:session): session closed for user root
+Jan 15 21:17:01 moodle CRON[30189]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 21:17:01 moodle su[30194]: Successful su for www-data by root
+Jan 15 21:17:01 moodle su[30194]: + ??? root:www-data
+Jan 15 21:17:01 moodle su[30194]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 21:17:02 moodle su[30194]: pam_unix(su:session): session closed for user www-data
+Jan 15 21:17:02 moodle CRON[30189]: pam_unix(cron:session): session closed for user root
+Jan 15 21:39:01 moodle CRON[30309]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 21:39:01 moodle CRON[30309]: pam_unix(cron:session): session closed for user root
+Jan 15 22:09:01 moodle CRON[30484]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 22:09:01 moodle CRON[30484]: pam_unix(cron:session): session closed for user root
+Jan 15 22:17:01 moodle CRON[30546]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 22:17:01 moodle su[30551]: Successful su for www-data by root
+Jan 15 22:17:01 moodle su[30551]: + ??? root:www-data
+Jan 15 22:17:01 moodle su[30551]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 22:17:01 moodle su[30551]: pam_unix(su:session): session closed for user www-data
+Jan 15 22:17:01 moodle CRON[30546]: pam_unix(cron:session): session closed for user root
+Jan 15 22:39:01 moodle CRON[30667]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 22:39:01 moodle CRON[30667]: pam_unix(cron:session): session closed for user root
+Jan 15 23:09:01 moodle CRON[30839]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 23:09:01 moodle CRON[30839]: pam_unix(cron:session): session closed for user root
+Jan 15 23:17:01 moodle CRON[30878]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 23:17:01 moodle su[30883]: Successful su for www-data by root
+Jan 15 23:17:01 moodle su[30883]: + ??? root:www-data
+Jan 15 23:17:01 moodle su[30883]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 15 23:17:02 moodle su[30883]: pam_unix(su:session): session closed for user www-data
+Jan 15 23:17:02 moodle CRON[30878]: pam_unix(cron:session): session closed for user root
+Jan 15 23:39:01 moodle CRON[31022]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 15 23:39:01 moodle CRON[31022]: pam_unix(cron:session): session closed for user root
+Jan 16 00:09:01 moodle CRON[31196]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 16 00:09:01 moodle CRON[31196]: pam_unix(cron:session): session closed for user root
+Jan 16 00:17:01 moodle CRON[31236]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 16 00:17:01 moodle su[31241]: Successful su for www-data by root
+Jan 16 00:17:01 moodle su[31241]: + ??? root:www-data
+Jan 16 00:17:01 moodle su[31241]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 16 00:17:01 moodle su[31241]: pam_unix(su:session): session closed for user www-data
+Jan 16 00:17:01 moodle CRON[31236]: pam_unix(cron:session): session closed for user root
+Jan 16 00:35:06 moodle sshd[723]: Server listening on 0.0.0.0 port 22.
+Jan 16 00:35:06 moodle sshd[723]: Server listening on :: port 22.
+Jan 16 00:35:07 moodle sshd[723]: Received signal 15; terminating.
+Jan 16 00:35:07 moodle sshd[911]: Server listening on 0.0.0.0 port 22.
+Jan 16 00:35:07 moodle sshd[911]: Server listening on :: port 22.
+Jan 16 00:35:07 moodle perl: pam_unix(webmin:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=root
+Jan 16 00:35:09 moodle webmin[1085]: Webmin starting
+Jan 16 00:39:01 moodle CRON[1268]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 16 00:39:01 moodle CRON[1268]: pam_unix(cron:session): session closed for user root
+Jan 16 01:09:01 moodle CRON[1443]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 16 01:09:01 moodle CRON[1443]: pam_unix(cron:session): session closed for user root
+Jan 16 01:17:01 moodle CRON[1506]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 16 01:17:01 moodle su[1510]: Successful su for www-data by root
+Jan 16 01:17:01 moodle su[1510]: + ??? root:www-data
+Jan 16 01:17:01 moodle su[1510]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Jan 16 01:17:02 moodle su[1510]: pam_unix(su:session): session closed for user www-data
+Jan 16 01:17:02 moodle CRON[1506]: pam_unix(cron:session): session closed for user root
+Jan 16 01:34:02 moodle perl: pam_unix(webmin:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=root
+Jan 16 01:34:04 moodle webmin[1025]: Webmin starting
+Jan 16 01:35:21 moodle login[1152]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan 16 01:35:21 moodle login[1191]: ROOT LOGIN  on '/dev/tty1'
+Feb 13 23:05:45 moodle perl: pam_unix(webmin:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=  user=root
+Feb 13 23:05:47 moodle webmin[1123]: Webmin starting
+Feb 13 23:09:02 moodle CRON[1286]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 23:09:02 moodle CRON[1286]: pam_unix(cron:session): session closed for user root
+Feb 13 23:17:02 moodle CRON[1349]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 23:17:02 moodle su[1353]: Successful su for www-data by root
+Feb 13 23:17:02 moodle su[1353]: + ??? root:www-data
+Feb 13 23:17:02 moodle su[1353]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Feb 13 23:17:04 moodle su[1353]: pam_unix(su:session): session closed for user www-data
+Feb 13 23:17:04 moodle CRON[1349]: pam_unix(cron:session): session closed for user root
+Feb 13 23:27:59 moodle login[1233]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+Feb 13 23:28:02 moodle login[1233]: FAILED LOGIN (1) on '/dev/tty1' FOR 'root', Authentication failure
+Feb 13 23:28:10 moodle login[1233]: FAILED LOGIN (2) on '/dev/tty1' FOR 'root', Authentication failure
+Feb 13 23:29:08 moodle login[1418]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Feb 13 23:29:08 moodle login[1431]: ROOT LOGIN  on '/dev/tty1'
+Feb 13 23:39:01 moodle CRON[2431]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 13 23:39:01 moodle CRON[2431]: pam_unix(cron:session): session closed for user root
+Feb 14 00:09:01 moodle CRON[4610]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 00:09:01 moodle CRON[4610]: pam_unix(cron:session): session closed for user root
+Feb 14 00:15:36 moodle groupadd[13712]: group added to /etc/group: name=lpadmin, GID=111
+Feb 14 00:15:36 moodle groupadd[13712]: group added to /etc/gshadow: name=lpadmin
+Feb 14 00:15:36 moodle groupadd[13712]: new group: name=lpadmin, GID=111
+Feb 14 00:15:41 moodle groupadd[13899]: group added to /etc/group: name=messagebus, GID=112
+Feb 14 00:15:41 moodle groupadd[13899]: group added to /etc/gshadow: name=messagebus
+Feb 14 00:15:41 moodle groupadd[13899]: new group: name=messagebus, GID=112
+Feb 14 00:15:41 moodle useradd[13903]: new user: name=messagebus, UID=107, GID=112, home=/var/run/dbus, shell=/bin/false
+Feb 14 00:15:42 moodle usermod[13908]: change user 'messagebus' password
+Feb 14 00:15:42 moodle chage[13913]: changed password expiry for messagebus
+Feb 14 00:16:24 moodle groupadd[15599]: group added to /etc/group: name=pulse, GID=113
+Feb 14 00:16:24 moodle groupadd[15599]: group added to /etc/gshadow: name=pulse
+Feb 14 00:16:24 moodle groupadd[15599]: new group: name=pulse, GID=113
+Feb 14 00:16:24 moodle useradd[15603]: new user: name=pulse, UID=108, GID=113, home=/var/run/pulse, shell=/bin/false
+Feb 14 00:16:24 moodle usermod[15608]: change user 'pulse' password
+Feb 14 00:16:24 moodle chage[15613]: changed password expiry for pulse
+Feb 14 00:16:24 moodle chfn[15616]: changed user 'pulse' information
+Feb 14 00:16:24 moodle gpasswd[15621]: user pulse added by root to group audio
+Feb 14 00:16:24 moodle groupadd[15627]: group added to /etc/group: name=pulse-access, GID=114
+Feb 14 00:16:24 moodle groupadd[15627]: group added to /etc/gshadow: name=pulse-access
+Feb 14 00:16:24 moodle groupadd[15627]: new group: name=pulse-access, GID=114
+Feb 14 00:16:27 moodle groupadd[15839]: group added to /etc/group: name=netdev, GID=115
+Feb 14 00:16:27 moodle groupadd[15839]: group added to /etc/gshadow: name=netdev
+Feb 14 00:16:27 moodle groupadd[15839]: new group: name=netdev, GID=115
+Feb 14 00:16:52 moodle groupadd[16346]: group added to /etc/group: name=gdm, GID=116
+Feb 14 00:16:52 moodle groupadd[16346]: group added to /etc/gshadow: name=gdm
+Feb 14 00:16:52 moodle groupadd[16346]: new group: name=gdm, GID=116
+Feb 14 00:16:52 moodle useradd[16352]: new user: name=gdm, UID=109, GID=116, home=/var/lib/gdm, shell=/bin/false
+Feb 14 00:16:52 moodle usermod[16357]: change user 'gdm' password
+Feb 14 00:16:52 moodle chage[16362]: changed password expiry for gdm
+Feb 14 00:16:52 moodle groupadd[16375]: group added to /etc/group: name=nopasswdlogin, GID=117
+Feb 14 00:16:52 moodle groupadd[16375]: group added to /etc/gshadow: name=nopasswdlogin
+Feb 14 00:16:52 moodle groupadd[16375]: new group: name=nopasswdlogin, GID=117
+Feb 14 00:17:01 moodle CRON[16786]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 00:17:01 moodle su[16790]: Successful su for www-data by root
+Feb 14 00:17:01 moodle su[16790]: + ??? root:www-data
+Feb 14 00:17:01 moodle su[16790]: pam_unix(su:session): session opened for user www-data by (uid=0)
+Feb 14 00:17:03 moodle su[16790]: pam_unix(su:session): session closed for user www-data
+Feb 14 00:17:03 moodle CRON[16786]: pam_unix(cron:session): session closed for user root
+Feb 14 00:17:06 moodle polkitd(authority=local): Registered Authentication Agent for session /org/freedesktop/ConsoleKit/Session2 (system bus name :1.9 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_GB)
+Feb 14 00:39:01 moodle CRON[18971]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 14 00:39:01 moodle CRON[18971]: pam_unix(cron:session): session closed for user root
+Feb 14 00:40:18 moodle gnome-keyring-daemon[16936]: unsupported key algorithm in certificate: 1.2.840.10045.2.1
+Feb 14 00:40:18 moodle gnome-keyring-daemon[16936]: unsupported key algorithm in certificate: 1.2.840.10045.2.1

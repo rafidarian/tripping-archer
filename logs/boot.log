@@ -1,0 +1,28 @@
+Begin: Loading essential drivers... ...
+Done.
+Begin: Running /scripts/init-premount ...
+Done.
+Begin: Mounting root file system... ...
+Begin: Running /scripts/local-top ...
+Done.
+Begin: Running /scripts/local-premount ...
+Done.
+Begin: Running /scripts/local-bottom ...
+Done.
+Done.
+Begin: Running /scripts/init-bottom ...
+Done.
+fsck from util-linux-ng 2.17.2
+fsck from util-linux-ng 2.17.2
+/dev/mapper/turnkey-root: clean, 57117/548864 files, 398839/2191360 blocks
+/dev/sda1 was not cleanly unmounted, check forced.
+/dev/sda1: 220/124496 files (4.1% non-contiguous), 81843/248832 blocks
+mountall: fsck /boot [345] terminated with status 1
+ * Starting Initialization hooks       [80G [9;0][74G[ OK ]
+ * Starting Postfix Mail Transport Agent postfix       [80G [74G[ OK ]
+ * Starting NTP server ntpd       [80G [74G[ OK ]
+ * Starting Shell In A Box Daemon shellinabox       [80G [74G[ OK ]
+ * Starting web server apache2       [80G apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1 for ServerName
+[74G[ OK ]
+ * Starting webmin       [80G [74G[ OK ]
+ * Starting confconsole       [80G [9;0][74G[ OK ]

@@ -1,0 +1,5 @@
+1360801021.694 type=SEAT_ADDED : seat-id='Seat1' seat-kind=0
+1360801021.734 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/???' session-remote-host-name='' session-is-local=TRUE session-unix-user=33 session-creation-time='2013-02-14T00:17:01.721865Z'
+1360801023.300 type=SEAT_SESSION_REMOVED : seat-id='Seat1' session-id='Session1' session-type='' session-x11-display='' session-x11-display-device='' session-display-device='/dev/???' session-remote-host-name='' session-is-local=TRUE session-unix-user=33 session-creation-time='2013-02-14T00:17:01.721865Z'
+1360801024.930 type=SEAT_SESSION_ADDED : seat-id='Seat1' session-id='Session2' session-type='' session-x11-display=':0' session-x11-display-device='/dev/tty8' session-display-device='/dev/tty1' session-remote-host-name='' session-is-local=TRUE session-unix-user=0 session-creation-time='2013-02-14T00:17:04.927589Z'
+1360801024.931 type=SEAT_ACTIVE_SESSION_CHANGED : seat-id='Seat1' session-id='Session2'

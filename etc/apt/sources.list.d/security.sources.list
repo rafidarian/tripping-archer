@@ -1,0 +1,6 @@
+deb http://archive.turnkeylinux.org/ubuntu lucid-security main
+
+deb http://us.archive.ubuntu.com/ubuntu lucid-security main
+deb http://us.archive.ubuntu.com/ubuntu lucid-security universe
+# deb http://us.archive.ubuntu.com/ubuntu lucid-security restricted
+# deb http://us.archive.ubuntu.com/ubuntu lucid-security multiverse

@@ -1,0 +1,5 @@
+E [14/Feb/2013:00:15:37 +0000] Unknown directive SystemGroup on line 16 of /etc/cups/cupsd.conf.
+E [14/Feb/2013:00:15:37 +0000] [cups-driverd] Bad driver information file "/usr/share/cups/drv/sample.drv"!
+E [14/Feb/2013:00:16:21 +0000] [cups-driverd] Bad driver information file "/usr/share/cups/drv/sample.drv"!
+E [14/Feb/2013:00:16:46 +0000] [cups-driverd] Bad driver information file "/usr/share/cups/drv/sample.drv"!
+E [14/Feb/2013:00:16:48 +0000] [cups-driverd] Bad driver information file "/usr/share/cups/drv/sample.drv"!

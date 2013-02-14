@@ -1,0 +1,120 @@
+# vim:syntax=apparmor
+#
+# abstraction used by evince binaries
+#
+
+  #include <abstractions/audio>
+  #include <abstractions/bash>
+  #include <abstractions/cups-client>
+  #include <abstractions/dbus>
+  #include <abstractions/freedesktop.org>
+  #include <abstractions/gnome>
+  #include <abstractions/nameservice>
+  #include <abstractions/launchpad-integration>
+  #include <abstractions/user-tmp>
+
+  #include <abstractions/ubuntu-browsers>
+  #include <abstractions/ubuntu-console-browsers>
+  #include <abstractions/ubuntu-email>
+  #include <abstractions/ubuntu-console-email>
+  #include <abstractions/ubuntu-media-players>
+
+  # Terminals for using console applications. These abstractions should ideally
+  # have 'ix' to restrict access to what only evince is allowed to do
+  #include <abstractions/ubuntu-gnome-terminal>
+
+  # By default, we won't support launching a terminal program in Xterm or
+  # KDE's konsole. It opens up too many unnecessary files for most users.
+  # People who need this functionality can uncomment the following:
+  ##include <abstractions/ubuntu-xterm>
+  ##include <abstractions/ubuntu-konsole>
+
+
+  @{PROC}/[0-9]*/fd/ r,
+  @{PROC}/[0-9]*/mountinfo r,
+
+  # move out to the gnome abstraction if anyone else needs these
+  /dev/.udev/db/* r,
+  /etc/udev/udev.conf r,
+  /sys/devices/**/block/**/uevent r,
+
+  # apport
+  /etc/default/apport r,
+
+  # evince specific
+  /etc/ r,
+  /etc/fstab r,
+  /etc/texmf/* r,
+  /etc/xpdf/* r,
+
+  /usr/bin/bug-buddy px,
+  /usr/bin/gs-esp ixr,
+  /usr/bin/mktexpk Ux,
+  /usr/bin/yelp Ux,
+  /usr/bin/dvipdfm Ux,
+
+  # supported archivers
+  /bin/gzip ixr,
+  /bin/bzip2 ixr,
+  /usr/bin/unrar* ixr,
+  /usr/bin/unzip ixr,
+  /usr/bin/7zr ixr,
+  /usr/lib/p7zip/7zr ixr,
+  /usr/bin/7za ixr,
+  /usr/lib/p7zip/7za ixr,
+  /usr/bin/zipnote ixr,
+  /bin/tar ixr,
+
+  # allow read access to anything in /usr/share, for plugins and input methods
+  /usr/local/share/** r,
+  /usr/share/** r,
+  /usr/lib/ghostscript/** mr,
+  /var/lib/texmf/** r,
+
+  # from http://live.gnome.org/Evince/SupportedDocumentFormats. Allow
+  # read for all supported file formats
+  /**.[bB][mM][pP]     r,
+  /**.[dD][jJ][vV][uU] r,
+  /**.[dD][vV][iI]     r,
+  /**.[gG][iI][fF]     r,
+  /**.[jJ][pP][gG]     r,
+  /**.[jJ][pP][eE][gG] r,
+  /**.[oO][dD][pP]     r,
+  /**.[pP][dD][fF]     r,
+  /**.[pP][nN][mM]     r,
+  /**.[pP][nN][gG]     r,
+  /**.[pP][sS]         r,
+  /**.[eE][pP][sS]     r,
+  /**.[tT][iI][fF]     r,
+  /**.[tT][iI][fF][fF] r,
+  /**.[xX][pP][mM]     r,
+  /**.[gG][zZ]         r,
+  /**.[bB][zZ]2        r,
+  /**.[cC][bB][rRzZ7]  r,
+
+  # removable media and filesystems
+  owner /media/** w,
+  owner /mnt/** w,
+  owner /srv/** w,
+
+  # Use abstractions/private-files instead of abstractions/private-files-strict
+  # and add the sensitive files manually to work around LP: #451422. The goal
+  # is to disallow access to the .mozilla folder in general, but to allow
+  # access to the Cache directory, which the browser may tell evince to open
+  # from directly.
+
+  #include <abstractions/private-files>
+  audit deny @{HOME}/.gnupg/** mrwkl,
+  audit deny @{HOME}/.ssh/** mrwkl,
+  audit deny @{HOME}/.gnome2_private/** mrwkl,
+
+  audit deny @{HOME}/.mozilla/*/*/* mrwkl,
+  audit deny @{HOME}/.mozilla/**/bookmarkbackups/** mrwkl,
+  audit deny @{HOME}/.mozilla/**/chrome/** mrwkl,
+  audit deny @{HOME}/.mozilla/**/extensions/** mrwkl,
+  audit deny @{HOME}/.mozilla/**/gm_scripts/** mrwkl,
+
+  # When LP: #451422 is fixed, change the above to simply be:
+  ##include <abstractions/private-files-strict>
+  #owner @{HOME}/.mozilla/**/*Cache/* r,
+

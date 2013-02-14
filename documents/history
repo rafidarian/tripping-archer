@@ -1,0 +1,113 @@
+    1  ifconfig
+    2  nano /etc/udev/rules.d/70-persistent-net.rules 
+    3  halt
+    4  ifconfig
+    5  nano /etc/udev/rules.d/70-persistent-net.rules 
+    6  halt
+    7  ifconfig
+    8  nano /etc/udev/rules.d/70-persistent-net.rules 
+    9  halt
+   10  ifconfig
+   11  nano /etc/udev/rules.d/70-persistent-net.rules 
+   12  halt
+   13  ifconfig
+   14  pwd
+   15  ls /etc
+   16  nano
+   17  ls /etc/udev/rules/
+   18  ls /etc/udev/
+   19  ls /etc/udev/rules.d
+   20  nano /etc/udev/rules.d/70-persistent-net.rules
+   21  reboot
+   22  ifconfig
+   23  pwd
+   24  ls /etc
+   25  nano
+   26  ls /etc/udev/rules/
+   27  ls /etc/udev/
+   28  ls /etc/udev/rules.d
+   29  nano /etc/udev/rules.d/70-persistent-net.rules
+   30  reboot
+   31  ifconfig
+   32  pwd
+   33  ls /etc
+   34  nano
+   35  ls /etc/udev/rules/
+   36  ls /etc/udev/
+   37  ls /etc/udev/rules.d
+   38  nano /etc/udev/rules.d/70-persistent-net.rules
+   39  reboot
+   40  ifconfig
+   41  pwd
+   42  ls /etc
+   43  nano
+   44  ls /etc/udev/rules/
+   45  ls /etc/udev/
+   46  ls /etc/udev/rules.d
+   47  nano /etc/udev/rules.d/70-persistent-net.rules
+   48  reboot
+   49  ifconfig
+   50  pwd
+   51  ls /etc
+   52  nano
+   53  ls /etc/udev/rules/
+   54  ls /etc/udev/
+   55  ls /etc/udev/rules.d
+   56  nano /etc/udev/rules.d/70-persistent-net.rules
+   57  reboot
+   58  ifconfig
+   59  nano /etc/udev/rules.d/70-persistent-net.rules
+   60  service network restart
+   61  service networkink restart
+   62  reboot
+   63  ifconfig
+   64  nano /etc/udev/rules.d/70-persistent-net.rules
+   65  service network restart
+   66  service networkink restart
+   67  reboot
+   68  ifconfig
+   69  nano /etc/udev/rules.d/70-persistent-net.rules
+   70  service network restart
+   71  service networkink restart
+   72  reboot
+   73  ls /
+   74  ls /var
+   75  ls /var/www
+   76  ls /var/www/moodle
+   77  nano /var/www/moodle/config.php
+   78  ls /etc/h*
+   79  ls /
+   80  ls /var/www/moodle
+   81  ls /etc
+   82  ls /etc/h*
+   83  nano /etc/host.conf
+   84  ls /var/www/moodle
+   85  ls
+   86  ls /
+   87  ls /usr
+   88  exit
+   89  passwd
+   90  exit
+   91  reboot
+   92  ls /mnt/
+   93  ls /media/
+   94  halt
+   95  cat /var/mail/root
+   96  clear
+   97  cat /var/mail/root | more
+   98  clear
+   99  tac /var/mail/root | more
+  100  cd /etc/ssh/
+  101  ls
+  102  cat /etc/resolv
+  103  cat /etc/resolv.conf 
+  104  cat moduli 
+  105  clear
+  106  ls
+  107  tac /var/mail/root | more
+  108  clear
+  109  ls
+  110  netstat -tunlp
+  111  ls
+  112  history
+  113  history > /root/history

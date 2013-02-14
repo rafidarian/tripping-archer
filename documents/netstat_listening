@@ -1,0 +1,18 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      847/sshd        
+tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN      1047/master     
+tcp        0      0 0.0.0.0:443             0.0.0.0:*               LISTEN      1113/apache2    
+tcp        0      0 0.0.0.0:12320           0.0.0.0:*               LISTEN      1094/shellinaboxd
+tcp        0      0 0.0.0.0:12321           0.0.0.0:*               LISTEN      1190/perl       
+tcp        0      0 0.0.0.0:12322           0.0.0.0:*               LISTEN      1113/apache2    
+tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      923/mysqld      
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      1113/apache2    
+tcp6       0      0 :::22                   :::*                    LISTEN      847/sshd        
+udp        0      0 172.20.241.10:123       0.0.0.0:*                           1064/ntpd       
+udp        0      0 127.0.0.1:123           0.0.0.0:*                           1064/ntpd       
+udp        0      0 0.0.0.0:123             0.0.0.0:*                           1064/ntpd       
+udp        0      0 0.0.0.0:12321           0.0.0.0:*                           1190/perl       
+udp6       0      0 fe80::250:56ff:fe93:123 :::*                                1064/ntpd       
+udp6       0      0 ::1:123                 :::*                                1064/ntpd       
+udp6       0      0 :::123                  :::*                                1064/ntpd       

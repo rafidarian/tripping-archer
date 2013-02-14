@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Indicator applet
+Exec=python /usr/share/gnome-panel/add-indicator-applet.py
+OnlyShowIn=GNOME;
+AutostartCondition=GNOME /apps/panel/need_add_indicator_applet_lucid
+X-GNOME-Autostart-Delay=60
+NoDisplay=true
+X-Ubuntu-Gettext-Domain=gnome-panel-2.0
+

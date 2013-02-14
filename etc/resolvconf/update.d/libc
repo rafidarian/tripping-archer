@@ -1,0 +1,161 @@
+#!/bin/sh
+#
+# Script to update resolv.conf, the libc resolver configuration file,
+# and to notify users of the libc resolver of changes
+#
+# Assumption: On entry, PWD contains the resolv.conf-type files
+#
+# This script is part of the resolvconf package
+#
+# Licensed under the GNU GPL.  See /usr/share/doc/resolvconf/copyright.
+#
+# Written by Thomas Hood <jdthood@yahoo.co.uk>
+
+set -e
+PATH=/sbin:/bin
+
+[ -x /lib/resolvconf/list-records ] || exit 1
+
+# Set REPORT_ABSENT_SYMLINK=no to inhibit reports that
+# /etc/resolv.conf is not a symbolic link
+
+# Default value
+REPORT_ABSENT_SYMLINK=y
+TRUNCATE_NAMESERVER_LIST_AFTER_127=y
+
+# Default override
+[ -r /etc/default/resolvconf ] && . /etc/default/resolvconf
+
+ETC=/etc
+ETCRESOLVCONF="${ETC}/resolvconf"
+RESOLVCONFDIR="${ETCRESOLVCONF}/resolv.conf.d"
+BASEFILE="${RESOLVCONFDIR}/base"
+HEADFILE="${RESOLVCONFDIR}/head"
+TAILFILE="${RESOLVCONFDIR}/tail"
+
+DYNAMICRSLVCNFFILE="$(resolvconf -r)/resolv.conf"
+TMPFILE="${DYNAMICRSLVCNFFILE}_new.$$"
+
+report_warning() { echo "$0: Warning: $*" >&2 ; }
+
+if [ ! -L ${ETC}/resolv.conf ] || [ ! "$(readlink ${ETC}/resolv.conf)" = "$DYNAMICRSLVCNFFILE" ] ; then
+	case "$REPORT_ABSENT_SYMLINK" in
+		y|Y|yes|YES|Yes)
+			report_warning "${ETC}/resolv.conf is not a symbolic link to $DYNAMICRSLVCNFFILE"
+			;;
+	esac
+	# Old name for the variable was '...ALTERED...' so accept that for now
+	case "$REPORT_ALTERED_SYMLINK" in
+		y|Y|yes|YES|Yes)
+			report_warning "${ETC}/resolv.conf is not a symbolic link to $DYNAMICRSLVCNFFILE"
+			;;
+	esac
+fi
+
+# Args are candidate items not containing spaces
+# Returns RSLT -- space-separated list of items without duplicates
+#
+# Stores arguments (minus duplicates) in RSLT, separated by spaces
+uniquify()
+{
+	RSLT=""
+	local D
+	while [ "$1" ] ; do
+		# Remove the root domain suffix
+		D="${1%.}"
+		for E in $RSLT ; do
+			[ "$D" = "$E" ] && { shift ; continue 2 ; }
+		done
+		RSLT="${RSLT:+$RSLT }$D"
+		shift
+	done
+}
+
+# Args are candidate items not containing spaces
+# Returns NSMSRVS -- space-separate list of no more than 3 items,
+#                    without duplicates,
+#                    truncated after 127.* if TRUNCATE_NAMESERVER_LIST_AFTER_127 set affirmatively
+uniquify_nameserver_list()
+{
+	NMSRVRS=""
+	N=0
+	while [ "$1" ] ; do
+		for E in $NMSRVRS ; do
+			[ "$1" = "$E" ] && { shift ; continue 2 ; }
+		done
+		NMSRVRS="${NMSRVRS:+$NMSRVRS }$1"
+		case "$TRUNCATE_NAMESERVER_LIST_AFTER_127" in (y|Y|yes|YES|Yes) case "$1" in (127.*) return 0 ;; esac ;; esac
+		N=$(($N + 1))
+		[ "$N" = 3 ] && return 0
+		shift
+	done
+}
+
+RSLVCNFFILES="$(/lib/resolvconf/list-records)"
+
+[ -f "$BASEFILE" ] && RSLVCNFFILES="$BASEFILE
+$RSLVCNFFILES"
+
+### Compile list of nameservers ###
+NMSRVRS=""
+if [ "$RSLVCNFFILES" ] ; then
+	uniquify_nameserver_list $(sed -n 's/^[[:space:]]*nameserver[[:space:]]\+//p' $RSLVCNFFILES)
+fi
+
+### Compile search list ###
+SRCHS=""
+if [ "$RSLVCNFFILES" ] ; then
+	uniquify $(sed -n 's/^[[:space:]]*\(\(search\)\|\(domain\)\)[[:space:]]\+//p' $RSLVCNFFILES)
+	SRCHS="$RSLT"
+fi
+
+clean_up() { rm -f "$TMPFILE" ; }
+trap clean_up EXIT
+clean_up
+
+### Make the file ###
+: > "$TMPFILE"
+[ -f "$HEADFILE" ] && cat "$HEADFILE" >> "$TMPFILE"
+for N in $NMSRVRS ; do echo "nameserver $N" >> "$TMPFILE" ; done
+[ "$SRCHS" ] && echo "search $SRCHS" >> "$TMPFILE"
+[ "$RSLVCNFFILES" ] && sed -e '/^[[:space:]]*$/d' -e '/^[[:space:]]*#/d' -e '/^[[:space:]]*\(\(nameserver\)\|\(search\)\|\(domain\)\)[[:space:]]/d' $RSLVCNFFILES >> "$TMPFILE" 2>/dev/null
+[ -f "$TAILFILE" ] && cat "$TAILFILE" >> "$TMPFILE"
+
+### Put the file in place ###
+
+# On init, just put it in place
+if [ "$1" = "-i" ] ; then
+	mv -f "$TMPFILE" "$DYNAMICRSLVCNFFILE"
+	exit 0
+fi
+
+if [ -f "$DYNAMICRSLVCNFFILE" ] && [ "$(cat $TMPFILE)" = "$(cat $DYNAMICRSLVCNFFILE)" ] ; then
+	# The file has not changed
+	rm -f "$TMPFILE"
+	exit 0
+fi
+
+# The file has changed
+mv -f "$TMPFILE" "$DYNAMICRSLVCNFFILE"
+
+# Restart nscd
+NSCD_RESTARTED=""
+NSCD_PIDFILE=""
+[ -s /var/run/nscd.pid ] && NSCD_PIDFILE="/var/run/nscd.pid"
+[ -s /var/run/nscd/nscd.pid ] && NSCD_PIDFILE="/var/run/nscd/nscd.pid"
+if \
+	[ "$NSCD_PIDFILE" ] \
+	&& [ -x /usr/sbin/nscd ] \
+	&& [ -x /etc/init.d/nscd ] \
+	&& [ -s /etc/nscd.conf ] \
+	&& grep -q '[[:space:]]*enable-cache[[:space:]]\+hosts[[:space:]]\+yes' /etc/nscd.conf \
+	&& start-stop-daemon --stop --quiet --pidfile="$NSCD_PIDFILE" --exec /usr/sbin/nscd --retry=TERM/3/HUP/5 \
+	&& start-stop-daemon --stop --quiet --oknodo --exec /usr/sbin/nscd --retry=0/5
+then
+	echo "Stopped Name Service Cache Daemon: nscd."
+	/etc/init.d/nscd start && { sleep 0.1 ; NSCD_RESTARTED=yes ; }
+fi
+
+# Notify users of the resolver
+exec run-parts ${NSCD_RESTARTED:+--arg="--nscd"} "${ETCRESOLVCONF}/update-libc.d"
+
